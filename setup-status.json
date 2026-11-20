@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "steps": {
+    "T0-01": {
+      "status": "DONE",
+      "commit": "3d83ed90d2e13b15ab2afc77351b4987036da25e",
+      "time": "2026-11-20T19:24:39+00:00",
+      "evidence": "evidence/T0-01.txt"
+    },
+    "T0-02": {
+      "status": "DONE",
+      "commit": "004039966d2f2f146105c682d8f765c42851fdb2",
+      "time": "2026-11-20T19:24:39+00:00",
+      "evidence": "evidence/T0-02.txt"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+# T0-01 exit criteria, run at 2026-11-20T19:24:30Z on commit 004039966d2f2f146105c682d8f765c42851fdb2
+
+$ box validate
+validate: OK
+
+$ box validate  (copy without company.primary_domain)
+error: company.yaml > company: 'primary_domain' is a required property
+validate: FAILED (1 errors, 0 empty required values)
+exit 1
+
+$ box check-literals  (trading name added under engine/)
+engine/probe.txt:1: contains 'Polestead': Polestead
+check-literals: FAILED (1 lines). Move the value to company.yaml or mark the line `example:`.
+exit 1
+
+$ pytest
+..........................                                               [100%]
+26 passed in 0.89s

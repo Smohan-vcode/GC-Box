@@ -1,0 +1,18 @@
+# T0-02 exit criteria, run at 2026-11-20T19:24:32Z on commit 004039966d2f2f146105c682d8f765c42851fdb2
+
+$ box status | tail -6
+  T13-02  NOT_STARTED      Installer guide
+
+Next runnable
+  T0-01   Repository scaffold and configuration validation
+
+0/67 done. Store: setup-status.json
+tasks + spikes listed: 67 of 67
+
+$ box done T0-02 (T0-01 not done)
+error: T0-02 cannot be DONE: dependencies not DONE: T0-01
+exit 1
+
+$ box runbook
+wrote runbooks/rendered/00-bootstrap.md
+unresolved braces: 0
