@@ -15,6 +15,9 @@ source .venv/bin/activate
 | --- | --- |
 | `box validate` | Validates `company.yaml` against `schema/company.schema.json`, loads every file under `files`, and cross-checks users, groups, roles and send-as. |
 | `box validate --for <task>` | Also fails on empty values marked `# REQUIRED` that the task needs. |
+| `box status` | Every task and spike by track with its status, and the next runnable tasks with any missing input. |
+| `box done <id> --evidence <path-or-url>` | Marks a task DONE in `setup-status.json` with commit, time and evidence. Refused while a dependency is not DONE. |
+| `box runbook` | Renders `runbooks/*.md` with values from `company.yaml` into `runbooks/rendered/`. Fails on an unknown placeholder. |
 | `box check-literals` | Rule R1: fails if a company value or a person's full name appears under `engine/`, `defaults/`, `tasks/`, `spikes/`, `assistants/` or `docs/`. A line containing `example:` is exempt. |
 
 The repository root is `--root`, else `$BOX_ROOT`, else the nearest parent
