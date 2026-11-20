@@ -1,0 +1,32 @@
+# Accounts. licence: paid | cloud_identity_free
+users:
+  - id: founder
+    primary: ""                    # REQUIRED: local part of the founder's address
+    given_name: ""                 # REQUIRED
+    family_name: ""                # REQUIRED
+    org_unit: /People
+    licence: paid
+    roles: [owner, legal-approver, company-legal-admin, signer, sender, finance-approver, control-owner]
+    access_groups: [grp-staff, grp-sales, grp-legal, grp-finance, grp-engineering, grp-admins]
+  - id: service
+    primary: ops
+    given_name: Operations
+    family_name: Service
+    org_unit: /Service
+    licence: paid
+    custom_admin_role: box-directory-operator
+    access_groups: [grp-admins]
+  - id: admin-1
+    primary: admin-1
+    given_name: Admin
+    family_name: One
+    org_unit: /Admins
+    licence: cloud_identity_free
+    super_admin: true
+  - id: admin-2
+    primary: admin-2
+    given_name: Admin
+    family_name: Two
+    org_unit: /Admins
+    licence: cloud_identity_free
+    super_admin: true

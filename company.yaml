@@ -1,0 +1,80 @@
+# The only file that makes this repository a specific company.
+# Empty strings marked REQUIRED must be filled before the task that needs
+# them; `box validate --for <task>` reports which.
+
+company:
+  legal_name: "Sri Lux Inc."
+  trading_name: "Polestead"
+  entity_wording: "Sri Lux Inc., a Texas corporation, doing business as Polestead"
+  jurisdiction: "Texas, United States"
+  primary_domain: "polestead.com"
+  domain_aliases: []
+
+workspace:
+  environment: "test"            # test | live
+  test_domain: ""                # REQUIRED before T1 on a test tenant
+  edition: "business_plus"
+  data_region: ""                # decision: "", "us" or "eu"
+  admin_accounts: ["admin-1", "admin-2"]
+  service_user: "ops"
+  org_units: ["/People", "/Service", "/Admins"]
+
+dns:
+  provider: "cloudflare"
+  zone: "polestead.com"
+  sending_subdomains:
+    transactional: "notify"
+    marketing: "news"
+  non_mail_hosts: ["app", "trust", "api"]
+  dmarc_report_group: "dmarc"
+
+files:
+  users: "directory/users.yaml"
+  groups: "directory/groups.yaml"
+  send_as: "directory/send-as.yaml"
+  drives: "drive/shared-drives.yaml"
+  labels: "drive/labels.yaml"
+  roles: "defaults/roles.yaml"
+  retention: "content/retention.yaml"
+  authority: "content/authority-matrix.yaml"
+
+legal:
+  domains: ["company", "partner", "notice"]
+  intake_folder: "10 Legal/01 Templates/_Inbox"
+  file_name_pattern: "^(?P<code>[A-Z0-9]+(?:-[A-Z0-9]+)*)_(?P<title>.+)\\.docx$"
+  header_label_patterns: {reference: "REFERENCE$", framework: "^FRAMEWORK$", version: "^VERSION$"}
+  catalogue: "content/legal-pack/catalogue.yaml"
+  packages: "content/legal-pack/packages.yaml"
+  dictionary_seed: "content/legal-pack/dictionary.yaml"
+  expiry_notice_days: 60
+  unsigned_reminder_days: 7
+
+integrations:
+  inbound_secret_property: "DESK_INBOUND_SECRET"
+  order_system:
+    name: "licence-server"
+    base_url: ""                 # REQUIRED before T9-02
+    auth_property: "ORDER_SYSTEM_TOKEN"
+
+compliance:
+  frameworks: ["soc2"]
+  soc2_criteria: ["security"]
+  evidence_folder: "60 Security and Compliance/Evidence"
+
+assistants:
+  brief_time: "07:30"
+  brief_timezone: "America/Chicago"
+
+# Seeds the Dictionary tab on first run. After that the cockpit owns the
+# values. Keys match content/legal-pack/dictionary.yaml.
+data:
+  company.address.street: ""             # REQUIRED before any template is sendable
+  company.address.city: "Houston"
+  company.address.state: "Texas"
+  company.address.postcode: ""           # REQUIRED
+  company.address.country: "United States"
+  company.registration.file_number: ""
+  company.telephone: ""
+  company.notices_email: "legal@polestead.com"
+  company.eu_representative.name: ""
+  company.eu_representative.address: ""

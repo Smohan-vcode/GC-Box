@@ -1,0 +1,25 @@
+# Folder trees per drive. <Name> segments are created on demand.
+"00 Corporate": ["Formation", "Board and shareholders", "Equity", "Bank and insurance", "Registrations"]
+"10 Legal":
+  - "01 Templates/_Inbox/Company"
+  - "01 Templates/_Inbox/Partner"
+  - "01 Templates/_Inbox/Notice"
+  - "01 Templates/Company"
+  - "01 Templates/Partner"
+  - "01 Templates/Notice"
+  - "02 NDAs/In progress"
+  - "02 NDAs/Executed"
+  - "03 Customer agreements"
+  - "04 Vendor and partner agreements"
+  - "05 Trademark and IP"
+  - "06 Notices and disputes"
+  - "07 Notices and records/Rendered"
+  - "08 Pack exports"
+"20 Finance": ["Invoices issued", "Bills", "Tax", "Bank statements"]
+"30 Sales": ["Accounts", "Pipeline", "Collateral"]
+"40 Marketing": ["Brand", "Website", "Content", "Press", "Campaigns"]
+"50 Product": ["Specifications", "Roadmap", "Design exports"]
+"60 Security and Compliance": ["Policies", "Evidence", "Audits", "Penetration tests", "Questionnaires", "Exercises"]
+"70 People": ["Hiring", "Agreements", "Equity grants", "Checklists"]
+"90 Admin": ["Register", "Automation logs", "Configuration exports", "Audit logs", "Setup evidence"]
+account_folder: ["Quotations", "Proposals", "Meetings", "Correspondence", "Agreements"]

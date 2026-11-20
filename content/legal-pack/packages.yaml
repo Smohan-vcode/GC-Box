@@ -1,0 +1,32 @@
+# Inferred from cross-references in the pack. Owner to confirm.
+confirmed: false
+packages:
+  - name: Managed service sale
+    lead: PS-CSA
+    items:
+      - {code: PS-DPA, condition: always}
+      - {code: PS-SLA, condition: always}
+      - {code: PS-AI, condition: always}
+      - {code: PS-REG, condition: regulated_customer}
+      - {code: PS-RESP, condition: regulated_customer}
+  - name: Self-hosted sale
+    lead: PS-SWL
+    items:
+      - {code: PS-AI, condition: ai_features_enabled}
+      - {code: PS-REG, condition: regulated_customer}
+      - {code: PS-RESP, condition: regulated_customer}
+  - name: Pilot
+    lead: PS-PILOT
+    items: [{code: PS-DPA, condition: always}]
+  - name: Design partner
+    lead: PS-DPP
+    items: [{code: PS-DPA, condition: always}]
+  - name: New employee
+    lead: PS-OFR
+    items: [{code: PS-PIIA, condition: always}]
+  - name: New adviser
+    lead: PS-ADV
+    items: [{code: PS-PIIA, condition: always}]
+conditions:
+  regulated_customer: "Send form asks: is the customer subject to DORA or NIS2?"
+  ai_features_enabled: "Send form asks: are AI features in scope?"

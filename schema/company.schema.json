@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "company.yaml",
+  "type": "object",
+  "required": ["company", "workspace", "dns", "files", "legal", "integrations", "compliance", "data"],
+  "additionalProperties": false,
+  "properties": {
+    "company": {
+      "type": "object",
+      "required": ["legal_name", "trading_name", "entity_wording", "jurisdiction", "primary_domain"],
+      "additionalProperties": false,
+      "properties": {
+        "legal_name": {"type": "string", "minLength": 1},
+        "trading_name": {"type": "string", "minLength": 1},
+        "entity_wording": {"type": "string", "minLength": 1},
+        "jurisdiction": {"type": "string", "minLength": 1},
+        "primary_domain": {"type": "string", "pattern": "^[a-z0-9.-]+\\.[a-z]{2,}$"},
+        "domain_aliases": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "workspace": {
+      "type": "object",
+      "required": ["environment", "edition", "admin_accounts", "service_user", "org_units"],
+      "additionalProperties": false,
+      "properties": {
+        "environment": {"enum": ["test", "live"]},
+        "test_domain": {"type": "string"},
+        "edition": {"enum": ["business_starter", "business_standard", "business_plus", "enterprise_standard", "enterprise_plus"]},
+        "data_region": {"enum": ["", "us", "eu"]},
+        "admin_accounts": {"type": "array", "minItems": 2, "items": {"type": "string"}},
+        "service_user": {"type": "string", "minLength": 1},
+        "org_units": {"type": "array", "items": {"type": "string", "pattern": "^/"}}
+      }
+    },
+    "dns": {
+      "type": "object",
+      "required": ["provider", "zone", "sending_subdomains", "dmarc_report_group"],
+      "additionalProperties": false,
+      "properties": {
+        "provider": {"enum": ["cloudflare"]},
+        "zone": {"type": "string", "minLength": 1},
+        "sending_subdomains": {
+          "type": "object",
+          "required": ["transactional", "marketing"],
+          "additionalProperties": false,
+          "properties": {"transactional": {"type": "string"}, "marketing": {"type": "string"}}
+        },
+        "non_mail_hosts": {"type": "array", "items": {"type": "string"}},
+        "dmarc_report_group": {"type": "string"}
+      }
+    },
+    "files": {"type": "object", "additionalProperties": {"type": "string"}},
+    "legal": {
+      "type": "object",
+      "required": ["domains", "intake_folder", "file_name_pattern", "catalogue", "packages", "dictionary_seed"],
+      "additionalProperties": false,
+      "properties": {
+        "domains": {"type": "array", "items": {"enum": ["company", "partner", "notice"]}},
+        "intake_folder": {"type": "string"},
+        "file_name_pattern": {"type": "string"},
+        "header_label_patterns": {"type": "object", "additionalProperties": {"type": "string"}},
+        "catalogue": {"type": "string"},
+        "packages": {"type": "string"},
+        "dictionary_seed": {"type": "string"},
+        "expiry_notice_days": {"type": "integer", "minimum": 1},
+        "unsigned_reminder_days": {"type": "integer", "minimum": 1}
+      }
+    },
+    "integrations": {
+      "type": "object",
+      "required": ["inbound_secret_property", "order_system"],
+      "additionalProperties": false,
+      "properties": {
+        "inbound_secret_property": {"type": "string"},
+        "order_system": {
+          "type": "object",
+          "required": ["name", "base_url", "auth_property"],
+          "additionalProperties": false,
+          "properties": {"name": {"type": "string"}, "base_url": {"type": "string"}, "auth_property": {"type": "string"}}
+        }
+      }
+    },
+    "compliance": {
+      "type": "object",
+      "required": ["frameworks", "evidence_folder"],
+      "additionalProperties": false,
+      "properties": {
+        "frameworks": {"type": "array", "items": {"type": "string"}},
+        "soc2_criteria": {"type": "array", "items": {"enum": ["security", "availability", "confidentiality", "processing_integrity", "privacy"]}},
+        "evidence_folder": {"type": "string"}
+      }
+    },
+    "assistants": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {"brief_time": {"type": "string"}, "brief_timezone": {"type": "string"}}
+    },
+    "data": {"type": "object", "additionalProperties": {"type": "string"}}
+  }
+}

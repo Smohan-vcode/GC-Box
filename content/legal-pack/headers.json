@@ -1,0 +1,217 @@
+{
+ "PS-83B": {
+  "ISSUER": "Sri Lux Inc.",
+  "USE": "Restricted shares only",
+  "DEADLINE": "30 days after transfer",
+  "FORM": "IRS Form 15620 or statement",
+  "VERSION": "2026.11"
+ },
+ "PS-ADV": {
+  "COMPANY": "Sri Lux Inc. d/b/a Polestead",
+  "ADVISOR": "[Name]",
+  "TERM": "Until ended by either party",
+  "EFFECTIVE": "[YYYY-MM-DD]",
+  "VERSION": "2026.11"
+ },
+ "PS-AI": {
+  "PROVIDER": "Sri Lux Inc. d/b/a Polestead",
+  "CUSTOMER": "[Customer legal name]",
+  "REFERENCE": "Attachment to PS-CSA",
+  "FRAMEWORK": "Common Paper AI Addendum v1.0",
+  "VERSION": "2026.11"
+ },
+ "PS-BYL": {
+  "CORPORATION": "BY",
+  "GOVERNING STATUTE": "VERSION",
+  "ADOPTED": "Sri Lux Inc."
+ },
+ "PS-CRA": {
+  "OWNER": "Sri Lux Inc. d/b/a Polestead",
+  "REGULATION": "(EU) 2024/2847, Article 14",
+  "AUDIENCE": "Security and leadership",
+  "REVIEW": "Quarterly",
+  "VERSION": "2026.11"
+ },
+ "PS-CSA": {
+  "PROVIDER": "Sri Lux Inc. d/b/a Polestead",
+  "CUSTOMER": "[Customer legal name]",
+  "ORDER REFERENCE": "PS-[2026]-[____]",
+  "FRAMEWORK": "Common Paper CSA v3.0",
+  "VERSION": "2026.11"
+ },
+ "PS-CVD": {
+  "OWNER": "Sri Lux Inc. d/b/a Polestead",
+  "CONTACT": "security@polestead.com",
+  "PUBLISHED": "polestead.com/legal/vulnerability-disclosure-policy",
+  "EFFECTIVE": "[YYYY-MM-DD]",
+  "VERSION": "2026.11"
+ },
+ "PS-DPA": {
+  "PROVIDER": "Sri Lux Inc. d/b/a Polestead",
+  "CUSTOMER": "[Customer legal name]",
+  "REFERENCE": "Attachment to PS-CSA",
+  "FRAMEWORK": "Common Paper DPA",
+  "VERSION": "2026.11"
+ },
+ "PS-DPP": {
+  "PROVIDER": "Sri Lux Inc. d/b/a Polestead",
+  "PARTNER": "[Partner legal name]",
+  "REFERENCE": "PS-[2026]-[____]",
+  "FRAMEWORK": "Common Paper Design Partner",
+  "VERSION": "2026.11"
+ },
+ "PS-EIP": {
+  "COMPANY": "Sri Lux Inc.",
+  "RESERVE": "[2,000,000] shares",
+  "BOARD ADOPTION": "[YYYY-MM-DD]",
+  "SHAREHOLDER APPROVAL": "[YYYY-MM-DD]",
+  "VERSION": "2026.11"
+ },
+ "PS-GTM": {
+  "COMPANY": "Sri Lux Inc. d/b/a Polestead",
+  "EXECUTIVE": "[Name]",
+  "START DATE": "[YYYY-MM-DD]",
+  "TERRITORY": "US, UK, DACH, France",
+  "VERSION": "2026.11"
+ },
+ "PS-IMP-DE": {
+  "ANBIETER": "Sri Lux Inc. d/b/a Polestead",
+  "VERÖFFENTLICHT": "polestead.com/de/impressum",
+  "SPRACHE": "Deutsch",
+  "STAND": "[TT.MM.JJJJ]",
+  "VERSION": "2026.11"
+ },
+ "PS-IND": {
+  "CORPORATION": "Sri Lux Inc.",
+  "INDEMNITEE": "[Name]",
+  "CAPACITY": "[Director / officer]",
+  "EFFECTIVE": "[YYYY-MM-DD]",
+  "VERSION": "2026.11"
+ },
+ "PS-IPA": {
+  "ASSIGNEE": "Sri Lux Inc. d/b/a Polestead",
+  "ASSIGNORS": "Founder, DAICHEM USA LLC, Daichem Pte Ltd",
+  "EFFECTIVE": "[YYYY-MM-DD]",
+  "STATUS": "For signature by all parties",
+  "VERSION": "2026.11"
+ },
+ "PS-ML-FR": {
+  "ÉDITEUR": "Sri Lux Inc. d/b/a Polestead",
+  "PUBLIÉ": "polestead.com/fr/mentions-legales",
+  "LANGUE": "Français",
+  "DATE": "[JJ/MM/AAAA]",
+  "VERSION": "2026.11"
+ },
+ "PS-MNDA": {
+  "PROVIDER": "Sri Lux Inc. d/b/a Polestead",
+  "COUNTERPARTY": "[Counterparty legal name]",
+  "REFERENCE": "PS-NDA-[____]",
+  "FRAMEWORK": "Bonterms Mutual NDA v1.0",
+  "VERSION": "2026.11"
+ },
+ "PS-OBC": {
+  "CORPORATION": "Sri Lux Inc.",
+  "ACTION": "Written consent",
+  "EFFECTIVE": "[YYYY-MM-DD]",
+  "STATUTE": "TBOC Section 6.201",
+  "VERSION": "2026.11"
+ },
+ "PS-OFR": {
+  "EMPLOYER": "Sri Lux Inc. d/b/a Polestead",
+  "CANDIDATE": "[Name]",
+  "ROLE": "[Job title]",
+  "START DATE": "[YYYY-MM-DD]",
+  "VERSION": "2026.11"
+ },
+ "PS-PART": {
+  "PROVIDER": "Sri Lux Inc. d/b/a Polestead",
+  "PARTNER": "[Partner legal name]",
+  "REFERENCE": "PS-[2026]-[____]",
+  "FRAMEWORK": "Common Paper Partnership v1.0",
+  "VERSION": "2026.11"
+ },
+ "PS-PIIA": {
+  "COMPANY": "Sri Lux Inc. d/b/a Polestead",
+  "SERVICE PROVIDER": "[Name]",
+  "ROLE": "[Employee / contractor / founder]",
+  "COUNTRY": "[Country of work]",
+  "VERSION": "2026.11"
+ },
+ "PS-PILOT": {
+  "PROVIDER": "Sri Lux Inc. d/b/a Polestead",
+  "CUSTOMER": "[Customer legal name]",
+  "REFERENCE": "PS-[2026]-[____]",
+  "FRAMEWORK": "Common Paper Pilot v1.1",
+  "VERSION": "2026.11"
+ },
+ "PS-PRIV": {
+  "CONTROLLER": "Sri Lux Inc. d/b/a Polestead",
+  "APPLIES TO": "polestead.com, enquiries, Trust Center",
+  "PUBLISHED": "polestead.com/legal/privacy",
+  "EFFECTIVE": "[YYYY-MM-DD]",
+  "VERSION": "2026.11"
+ },
+ "PS-REG": {
+  "PROVIDER": "Sri Lux Inc. d/b/a Polestead",
+  "CUSTOMER": "[Customer legal name]",
+  "REFERENCE": "Attachment to PS-CSA / PS-SWL",
+  "FRAMEWORK": "Polestead terms",
+  "VERSION": "2026.11"
+ },
+ "PS-RESP": {
+  "PROVIDER": "Sri Lux Inc. d/b/a Polestead",
+  "ATTACHMENT TO": "PS-REG",
+  "JURISDICTIONS": "Germany, France",
+  "STATUS": "For customer use",
+  "VERSION": "2026.11"
+ },
+ "PS-ROPA": {
+  "ORGANISATION": "Sri Lux Inc. d/b/a Polestead",
+  "BASIS": "Article 30 GDPR",
+  "AUDIENCE": "Internal; available to authorities",
+  "REVIEW": "Quarterly",
+  "VERSION": "2026.11"
+ },
+ "PS-SDR": {
+  "COMPANY": "Sri Lux Inc. d/b/a Polestead",
+  "CONTRACTOR": "[Name or company]",
+  "COUNTRY": "[Country]",
+  "EFFECTIVE": "[YYYY-MM-DD]",
+  "VERSION": "2026.11"
+ },
+ "PS-SLA": {
+  "PROVIDER": "Sri Lux Inc. d/b/a Polestead",
+  "CUSTOMER": "[Customer legal name]",
+  "REFERENCE": "Attachment to PS-CSA",
+  "FRAMEWORK": "Common Paper SLA v2.0",
+  "VERSION": "2026.11"
+ },
+ "PS-SWL": {
+  "PROVIDER": "Sri Lux Inc. d/b/a Polestead",
+  "CUSTOMER": "[Customer legal name]",
+  "REFERENCE": "PS-[2026]-[____]",
+  "FRAMEWORK": "Common Paper SLA v1.1",
+  "VERSION": "2026.11"
+ },
+ "PS-TC": {
+  "PROVIDER": "Sri Lux Inc. d/b/a Polestead",
+  "APPLIES TO": "Trust Center users",
+  "ACCEPTANCE": "Click-through",
+  "PUBLISHED": "polestead.com/legal/trust-center",
+  "VERSION": "2026.11"
+ },
+ "PS-TIA": {
+  "IMPORTER": "Sri Lux Inc. d/b/a Polestead",
+  "BASIS": "SCCs Clause 14",
+  "AUDIENCE": "Customer DPOs, on request",
+  "REVIEW": "Annual",
+  "VERSION": "2026.11"
+ },
+ "PS-VSA": {
+  "CUSTOMER": "Sri Lux Inc. d/b/a Polestead",
+  "SUPPLIER": "[Supplier legal name]",
+  "EFFECTIVE": "[YYYY-MM-DD]",
+  "USE": "Agencies, freelancers, testers, translators",
+  "VERSION": "2026.11"
+ }
+}

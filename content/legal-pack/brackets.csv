@@ -1,0 +1,359 @@
+code,bracket_text,occurrence,context_before,context_after,suggested_kind,suggested_key
+PS-83B,[Full name],1,sed or received subject to vesting. | ELECTION | Taxpayer | Name. , | Address. [Address] | Taxpayer identification number. [SSN or ,deal,
+PS-83B,[Address],1,ct to vesting. | ELECTION | Taxpayer | Name. [Full name] | Address. , | Taxpayer identification number. [SSN or ITIN] | Taxable year.,deal,
+PS-83B,[SSN or ITIN],1,ll name] | Address. [Address] | Taxpayer identification number. , | Taxable year. Calendar year [year] | Property | Description. [N,deal,
+PS-83B,[year],1,ification number. [SSN or ITIN] | Taxable year. Calendar year ," | Property | Description. [Number] shares of common stock, par ",deal,
+PS-83B,[Number],1,N] | Taxable year. Calendar year [year] | Property | Description. ," shares of common stock, par value USD 0.0001, of Sri Lux In",deal,
+PS-83B,[number],1,"value USD 0.0001, of Sri Lux Inc., a Texas corporation (EIN ",). | Date of transfer. [YYYY-MM-DD] | Restrictions | Restrictions.,deal,
+PS-83B,[YYYY-MM-DD],1,"Inc., a Texas corporation (EIN [number]). | Date of transfer. ", | Restrictions | Restrictions. The shares are subject to a repu,deal,
+PS-83B,[amount],1,e and performance conditions. | Values | Fair market value. USD ," per share at the time of transfer, determined without regar",deal,
+PS-83B,[amount],2,n other than a restriction that will never lapse; total USD ,. | Amount paid. USD [amount] per share; total USD [amount]. | A,deal,
+PS-83B,[amount],3,that will never lapse; total USD [amount]. | Amount paid. USD , per share; total USD [amount]. | Amount included in gross inc,deal,
+PS-83B,[amount],4,SD [amount]. | Amount paid. USD [amount] per share; total USD ,". | Amount included in gross income. USD [amount], being the e",deal,
+PS-83B,[amount],5,e; total USD [amount]. | Amount included in gross income. USD ,", being the excess of fair market value over the amount paid",deal,
+PS-ADV,[Name],1,ADVISOR | TERM | EFFECTIVE | VERSION | Sri Lux Inc. d/b/a Polestead | , | Until ended by either party | [YYYY-MM-DD] | 2026.11 | This Agree,deal,
+PS-ADV,[YYYY-MM-DD],1,Lux Inc. d/b/a Polestead | [Name] | Until ended by either party | , | 2026.11 | This Agreement is between the Company and the Advis,deal,
+PS-ADV,[Street address],1," Lux Inc., a Texas corporation, doing business as Polestead | ",", Houston, Texas [ZIP], United States | Notices: legal@poleste",constant,company.address.street
+PS-ADV,[ZIP],1,"oing business as Polestead | [Street address], Houston, Texas ",", United States | Notices: legal@polestead.com | Advisor | [Name] | ",constant,company.address.postcode
+PS-ADV,[Name],2,"s [ZIP], United States | Notices: legal@polestead.com | Advisor | ", | [Address] | [Email] | Current employer and role: [disclose] | KEY,deal,
+PS-ADV,[Address],1,", United States | Notices: legal@polestead.com | Advisor | [Name] | ", | [Email] | Current employer and role: [disclose] | KEY TERMS | Adv,deal,
+PS-ADV,[Email],1,tates | Notices: legal@polestead.com | Advisor | [Name] | [Address] | , | Current employer and role: [disclose] | KEY TERMS | Advisory ar,deal,
+PS-ADV,[disclose],1,Advisor | [Name] | [Address] | [Email] | Current employer and role: , | KEY TERMS | Advisory areas | [e.g. DORA and NIS2 practice in Ge,deal,
+PS-ADV,[Number],1,ices; French market entry; enterprise TPRM product]. | Option | , shares (approximately [0.15–0.50]% of fully diluted capital,deal,
+PS-ADV,[0.15–0.50],1,rprise TPRM product]. | Option | [Number] shares (approximately ,"% of fully diluted capital at grant). | Vesting | 24 months, mon",deal,
+PS-ADV,[Advisor],1,ronically and in counterparts. | Sri Lux Inc. d/b/a Polestead | , | Signature | Print name | Title | Date | Notice address,deal,
+PS-AI,[Customer legal name],1,ER | REFERENCE | FRAMEWORK | VERSION | Sri Lux Inc. d/b/a Polestead | , | Attachment to PS-CSA | Common Paper AI Addendum v1.0 | 2026.11 | ,deal,
+PS-AI,[and does not log them in any intermediary service],1,uts beyond what is needed to display the result to Customer ,. | Switching AI features off. Customer may switch off AI-assi,choice,
+PS-AI,[https://commonpaper.com/standards/ai-addendum/1.0/],1,"AI Addendum Standard Terms Version 1.0, which are posted at ","(https://commonpaper.com/standards/ai-addendum/1.0/). | ""AI Se",deal,
+PS-BYL,[YYYY-MM-DD],1,D | BY | VERSION | Sri Lux Inc. | Texas Business Organizations Code | , | Sole director | 2026.11 | Bylaws | Polestead-authored. | Offices an,deal,
+PS-CRA,"[Name, role]",1,cident terms of the DPA and the Regulatory Addendum. | Owner. ,". Deputy: [name, role]. The owner must be reachable within 4",deal,
+PS-CRA,"[name, role]",1,"A and the Regulatory Addendum. | Owner. [Name, role]. Deputy: ",". The owner must be reachable within 4 hours, 7 days a week,",deal,
+PS-CRA,[Confirm cover arrangement.],1,"hin 4 hours, 7 days a week, for the reporting clocks below. ", | Triggers | Actively exploited vulnerability. A vulnerability ,note,note.ps-cra.01
+PS-CRA,[Member State],1,with the most users of the software. Current determination: ,", because [reason]. Review this each quarter. A notification",deal,
+PS-CRA,[reason],1,"he software. Current determination: [Member State], because ",. Review this each quarter. A notification sent to the wrong,deal,
+PS-CRA,"[owner, target date for gap assessment]",1,"n, EU declaration of conformity and CE marking apply. Plan: ",. A non-EU manufacturer should also decide whether to appoin,choice,
+PS-CSA,[Customer legal name],1,ER REFERENCE | FRAMEWORK | VERSION | Sri Lux Inc. d/b/a Polestead | , | PS-[2026]-[____] | Common Paper CSA v3.0 | 2026.11 | This Cover P,deal,
+PS-CSA,[2026],1,RSION | Sri Lux Inc. d/b/a Polestead | [Customer legal name] | PS-,"-[____] | Common Paper CSA v3.0 | 2026.11 | This Cover Page, toget",reference,
+PS-CSA,[____],1,ri Lux Inc. d/b/a Polestead | [Customer legal name] | PS-[2026]-," | Common Paper CSA v3.0 | 2026.11 | This Cover Page, together wit",reference,
+PS-CSA,[Street address],1," Lux Inc., a Texas corporation, doing business as Polestead | ",", Houston, Texas [ZIP], United States | Notices: legal@poleste",constant,company.address.street
+PS-CSA,[ZIP],1,"oing business as Polestead | [Street address], Houston, Texas ",", United States | Notices: legal@polestead.com | Customer | [Custo",constant,company.address.postcode
+PS-CSA,[Customer legal name],2," [ZIP], United States | Notices: legal@polestead.com | Customer | ",", a [jurisdiction] [entity type] | [Registered address] | Notice",deal,
+PS-CSA,[jurisdiction],1,"ices: legal@polestead.com | Customer | [Customer legal name], a ", [entity type] | [Registered address] | Notices: [email] | VAT / t,deal,
+PS-CSA,[entity type],1,"estead.com | Customer | [Customer legal name], a [jurisdiction] ", | [Registered address] | Notices: [email] | VAT / tax ID: [number,deal,
+PS-CSA,[Registered address],1,"tomer | [Customer legal name], a [jurisdiction] [entity type] | ", | Notices: [email] | VAT / tax ID: [number] | ORDER FORM | Cloud Se,deal,
+PS-CSA,[email],1, [jurisdiction] [entity type] | [Registered address] | Notices: , | VAT / tax ID: [number] | ORDER FORM | Cloud Service | The Poleste,deal,
+PS-CSA,[number],1,y type] | [Registered address] | Notices: [email] | VAT / tax ID: , | ORDER FORM | Cloud Service | The Polestead third-party risk man,deal,
+PS-CSA,[data-centre location to be confirmed by Provider],1,ed by Provider in the following region: | [ ] European Union: , | [ ] United States: [data-centre location to be confirmed by,note,note.ps-csa.01
+PS-CSA,[data-centre location to be confirmed by Provider],2,re location to be confirmed by Provider] | [ ] United States: , | Self-hosted deployment is licensed under the Polestead Soft,note,note.ps-csa.02
+PS-CSA,[USD / EUR],1,on Period | 12 months from the Order Date. | Cloud Service Fees | ," [amount] per year, for up to [number] active monitored vend",choice,
+PS-CSA,[amount],1, months from the Order Date. | Cloud Service Fees | [USD / EUR] ," per year, for up to [number] active monitored vendors and u",deal,
+PS-CSA,[number],2,"Cloud Service Fees | [USD / EUR] [amount] per year, for up to ", active monitored vendors and unlimited Users. | Fees for each,deal,
+PS-CSA,[USD amount],1,r and technology errors-and-omissions insurance of at least , per claim. [Confirm before signature.] | CHANGES TO THE STAND,deal,
+PS-CSA,[Confirm before signature.],1,and-omissions insurance of at least [USD amount] per claim. , | CHANGES TO THE STANDARD TERMS | The following terms supplemen,note,note.ps-csa.03
+PS-CSA,[Customer legal name],3,ronically and in counterparts. | Sri Lux Inc. d/b/a Polestead | , | Signature | Print name | Title | Date | Notice address | Standard Ter,deal,
+PS-CVD,[YYYY-MM-DD],1,ead.com | polestead.com/legal/vulnerability-disclosure-policy | , | 2026.11 | Policy | Polestead-authored. | Scope | Covered systems. T,deal,
+PS-CVD,"[Add: encrypt with our PGP key at polestead.com/.well-known/pgp-key.txt, once published.]",1,"reproduce, the impact you observed, and how to contact you. ", | Do not publish first. Please give us a reasonable time to f,choice,
+PS-CVD,[YYYY-MM-DD],2,h RFC 9116: | Contact: mailto:security@polestead.com | Expires: ,"T00:00:00.000Z | Preferred-Languages: en, de, fr | Canonical: ht",deal,
+PS-DPA,[Customer legal name],1,ER | REFERENCE | FRAMEWORK | VERSION | Sri Lux Inc. d/b/a Polestead | , | Attachment to PS-CSA | Common Paper DPA | 2026.11 | This Data Pro,deal,
+PS-DPA,[Street address],1," Lux Inc., a Texas corporation, doing business as Polestead | ",", Houston, Texas [ZIP], United States | Notices: legal@poleste",constant,company.address.street
+PS-DPA,[ZIP],1,"oing business as Polestead | [Street address], Houston, Texas ",", United States | Notices: legal@polestead.com | Customer | [Custo",constant,company.address.postcode
+PS-DPA,[Customer legal name],2," [ZIP], United States | Notices: legal@polestead.com | Customer | ",", a [jurisdiction] [entity type] | [Registered address] | Privac",deal,
+PS-DPA,[jurisdiction],1,"ices: legal@polestead.com | Customer | [Customer legal name], a ", [entity type] | [Registered address] | Privacy contact: [email],deal,
+PS-DPA,[entity type],1,"estead.com | Customer | [Customer legal name], a [jurisdiction] ", | [Registered address] | Privacy contact: [email] | KEY TERMS | Agr,deal,
+PS-DPA,[Registered address],1,"tomer | [Customer legal name], a [jurisdiction] [entity type] | ", | Privacy contact: [email] | KEY TERMS | Agreement | The Cloud Serv,deal,
+PS-DPA,[email],1,iction] [entity type] | [Registered address] | Privacy contact: , | KEY TERMS | Agreement | The Cloud Service Agreement (PS-CSA) be,deal,
+PS-DPA,[Third-party penetration test: state date of first test once completed.],1,a software bill of materials is generated for each release. ," | Backups and recovery. Encrypted backups, held in the same r",choice,
+PS-DPA,[twice],1,"e region as the primary data, with restore testing at least ", a year. | Personnel. Personnel with access to Customer Person,deal,
+PS-DPA,"[Falkenstein / Nuremberg, Germany — confirm]",1,ine GmbH (Germany) | Hosting of the Cloud Service (EU region) | ," | Cloudflare, Inc. (USA) | Content delivery, DNS, web applicati",note,note.ps-dpa.01
+PS-DPA,"[Supabase, Inc. (USA)]",1,"web application firewall, edge services | Global edge network | ", | [Managed database and authentication — list only if hosted ,deal,
+PS-DPA,[Managed database and authentication — list only if hosted by Supabase],1,"l, edge services | Global edge network | [Supabase, Inc. (USA)] | ", | [Region] | [Transactional email provider] | Delivery of service,choice,
+PS-DPA,[Region],1,abase and authentication — list only if hosted by Supabase] | , | [Transactional email provider] | Delivery of service emails a,deal,
+PS-DPA,[Transactional email provider],1, authentication — list only if hosted by Supabase] | [Region] | , | Delivery of service emails and notifications | [Region] | [Anth,deal,
+PS-DPA,[Region],2,mail provider] | Delivery of service emails and notifications | , | [Anthropic PBC (USA)] | [AI-assisted features — list only if ,deal,
+PS-DPA,[Anthropic PBC (USA)],1,ider] | Delivery of service emails and notifications | [Region] | , | [AI-assisted features — list only if Provider holds the mod,deal,
+PS-DPA,[AI-assisted features — list only if Provider holds the model account],1,ice emails and notifications | [Region] | [Anthropic PBC (USA)] | , | [Region] | CHANGES TO THE STANDARD TERMS | The following terms ,choice,
+PS-DPA,[Region],3,d features — list only if Provider holds the model account] | , | CHANGES TO THE STANDARD TERMS | The following terms supplemen,deal,
+PS-DPA,[48],1,f a Security Incident without undue delay and no later than , hours after becoming aware of it. | Return and deletion. For ,deal,
+PS-DPP,[Partner legal name],1,ER | REFERENCE | FRAMEWORK | VERSION | Sri Lux Inc. d/b/a Polestead | , | PS-[2026]-[____] | Common Paper Design Partner | 2026.11 | This C,deal,
+PS-DPP,[2026],1,ERSION | Sri Lux Inc. d/b/a Polestead | [Partner legal name] | PS-,-[____] | Common Paper Design Partner | 2026.11 | This Cover Page ,reference,
+PS-DPP,[____],1,Sri Lux Inc. d/b/a Polestead | [Partner legal name] | PS-[2026]-, | Common Paper Design Partner | 2026.11 | This Cover Page and the,reference,
+PS-DPP,[Street address],1," Lux Inc., a Texas corporation, doing business as Polestead | ",", Houston, Texas [ZIP], United States | Notices: legal@poleste",constant,company.address.street
+PS-DPP,[ZIP],1,"oing business as Polestead | [Street address], Houston, Texas ",", United States | Notices: legal@polestead.com | Partner | [Legal ",constant,company.address.postcode
+PS-DPP,[Legal name],1,"s [ZIP], United States | Notices: legal@polestead.com | Partner | ",", a [jurisdiction] [entity type] | [Registered address] | Notice",deal,
+PS-DPP,[jurisdiction],1,"States | Notices: legal@polestead.com | Partner | [Legal name], a ", [entity type] | [Registered address] | Notices: [email] | KEY TER,deal,
+PS-DPP,[entity type],1," legal@polestead.com | Partner | [Legal name], a [jurisdiction] ", | [Registered address] | Notices: [email] | KEY TERMS | Program | Ear,deal,
+PS-DPP,[Registered address],1,"ad.com | Partner | [Legal name], a [jurisdiction] [entity type] | ", | Notices: [email] | KEY TERMS | Program | Early use of the Poleste,deal,
+PS-DPP,[email],1, [jurisdiction] [entity type] | [Registered address] | Notices: , | KEY TERMS | Program | Early use of the Polestead third-party ri,deal,
+PS-DPP,"[None / EUR 1,500 excluding VAT for the Term]",1,latory mappings. | Term | 90 days from the Effective Date. | Fees | ,. If Partner signs an annual subscription within 30 days aft,choice,
+PS-DPP,[40],1,", Provider will discount the first-year subscription fee by ",%. | Effective Date | The date of the last signature on this Cov,deal,
+PS-DPP,[The laws of the State of Texas],1,ate of the last signature on this Cover Page. | Governing Law | , [The laws of the Federal Republic of Germany] [The laws of ,choice,
+PS-DPP,[The laws of the Federal Republic of Germany],1, Cover Page. | Governing Law | [The laws of the State of Texas] ," [The laws of France], excluding conflict-of-laws rules and ",choice,
+PS-DPP,[The laws of France],1,ate of Texas] [The laws of the Federal Republic of Germany] ,", excluding conflict-of-laws rules and the UN Convention on ",choice,
+PS-DPP,"[State and federal courts in Harris County, Texas]",1,ontracts for the International Sale of Goods. | Chosen Courts | , [Courts of Frankfurt am Main] [Tribunal des activités écono,choice,
+PS-DPP,[Courts of Frankfurt am Main],1,"n Courts | [State and federal courts in Harris County, Texas] ", [Tribunal des activités économiques de Paris]. | Notice Addre,deal,
+PS-DPP,[Tribunal des activités économiques de Paris],1,"urts in Harris County, Texas] [Courts of Frankfurt am Main] ",. | Notice Address | Provider: legal@polestead.com. Partner: [em,choice,
+PS-DPP,[email],2,is]. | Notice Address | Provider: legal@polestead.com. Partner: ,. | CHANGES TO THE STANDARD TERMS | The following terms suppleme,deal,
+PS-DPP,[Partner legal name],2,ronically and in counterparts. | Sri Lux Inc. d/b/a Polestead | , | Signature | Print name | Title | Date | Notice address | Standard Ter,deal,
+PS-EIP,"[2,000,000]",1,VE | BOARD ADOPTION | SHAREHOLDER APPROVAL | VERSION | Sri Lux Inc. | , shares | [YYYY-MM-DD] | [YYYY-MM-DD] | 2026.11 | Plan | Polestead-aut,deal,
+PS-EIP,[YYYY-MM-DD],1,"HAREHOLDER APPROVAL | VERSION | Sri Lux Inc. | [2,000,000] shares | ", | [YYYY-MM-DD] | 2026.11 | Plan | Polestead-authored. | Purpose and A,deal,
+PS-EIP,[YYYY-MM-DD],2,"PROVAL | VERSION | Sri Lux Inc. | [2,000,000] shares | [YYYY-MM-DD] | ", | 2026.11 | Plan | Polestead-authored. | Purpose and Administration,deal,
+PS-EIP,"[2,000,000]",2,shares of common stock that may be issued under the Plan is ,", all of which may be issued as incentive stock options. Sha",deal,
+PS-EIP,[Name],1,tate of Texas. | FORM OF GRANT NOTICE | Item | Detail | Participant | ,", [country of residence] | Award type | [ISO (US employees only)",deal,
+PS-EIP,[country of residence],1,"Texas. | FORM OF GRANT NOTICE | Item | Detail | Participant | [Name], ", | Award type | [ISO (US employees only) / NSO / Restricted stoc,deal,
+PS-EIP,[ISO (US employees only) / NSO / Restricted stock],1,"etail | Participant | [Name], [country of residence] | Award type | ", | Number of shares | [Number] | Exercise or purchase price | USD [a,choice,
+PS-EIP,[Number],1, employees only) / NSO / Restricted stock] | Number of shares | ," | Exercise or purchase price | USD [amount] per share, being fa",deal,
+PS-EIP,[amount],1,k] | Number of shares | [Number] | Exercise or purchase price | USD ," per share, being fair market value on the grant date | Grant ",deal,
+PS-EIP,[YYYY-MM-DD],3,"share, being fair market value on the grant date | Grant date | ", | Vesting commencement date | [YYYY-MM-DD] | Vesting schedule | [St,deal,
+PS-EIP,[YYYY-MM-DD],4,rant date | Grant date | [YYYY-MM-DD] | Vesting commencement date | ," | Vesting schedule | [Standard: 25% on the first anniversary, t",deal,
+PS-EIP,"[Standard: 25% on the first anniversary, then 1/48th monthly]",1,DD] | Vesting commencement date | [YYYY-MM-DD] | Vesting schedule | , or [Performance schedule attached] | Expiry | 10 years after th,choice,
+PS-EIP,[Performance schedule attached],1,"dard: 25% on the first anniversary, then 1/48th monthly] or ", | Expiry | 10 years after the grant date,deal,
+PS-GTM,[Name],1,E | START DATE | TERRITORY | VERSION | Sri Lux Inc. d/b/a Polestead | ," | [YYYY-MM-DD] | US, UK, DACH, France | 2026.11 | This Agreement is",deal,
+PS-GTM,[YYYY-MM-DD],1, DATE | TERRITORY | VERSION | Sri Lux Inc. d/b/a Polestead | [Name] | ," | US, UK, DACH, France | 2026.11 | This Agreement is between the ",deal,
+PS-GTM,[Street address],1," Lux Inc., a Texas corporation, doing business as Polestead | ",", Houston, Texas [ZIP], United States | Notices: legal@poleste",constant,company.address.street
+PS-GTM,[ZIP],1,"oing business as Polestead | [Street address], Houston, Texas ",", United States | Notices: legal@polestead.com | Executive | [Name",constant,company.address.postcode
+PS-GTM,[Name],2,"[ZIP], United States | Notices: legal@polestead.com | Executive | ", | [Address] | [Email] | Terms | Polestead-authored. | Role | Role. The ,deal,
+PS-GTM,[Address],1,United States | Notices: legal@polestead.com | Executive | [Name] | , | [Email] | Terms | Polestead-authored. | Role | Role. The Company en,deal,
+PS-GTM,[Email],1,tes | Notices: legal@polestead.com | Executive | [Name] | [Address] | , | Terms | Polestead-authored. | Role | Role. The Company engages th,deal,
+PS-GTM,[as a US employee under the offer letter attached],1,t of channel partners. | Engagement. The Executive is engaged , [through an employer of record in the Executive's country o,choice,
+PS-GTM,[through an employer of record in the Executive's country of residence],1, engaged [as a US employee under the offer letter attached] , [as an independent contractor through the Executive's own c,choice,
+PS-GTM,[as an independent contractor through the Executive's own company],1,employer of record in the Executive's country of residence] ,". Where the Executive works in an EU country, the Company wi",choice,
+PS-GTM,[None],1, the law that governs the Executive's engagement. | Base pay. ," [USD [amount] per month, recoverable from commission] [as s",deal,
+PS-GTM,[USD [amount],1,w that governs the Executive's engagement. | Base pay. [None] ," per month, recoverable from commission] [as stated in the o",deal,
+PS-GTM,[as stated in the offer letter],1,"None] [USD [amount] per month, recoverable from commission] ",. | Equity | Grant. Subject to Board approval under the 2026 Equ,deal,
+PS-GTM,[restricted shares / options],1,"Equity Incentive Plan, the Company will grant the Executive ", equal to [5.00%–10.00%] of the Company's fully diluted capi,choice,
+PS-GTM,[5.00%–10.00%],1, grant the Executive [restricted shares / options] equal to , of the Company's fully diluted capital at the grant date (t,deal,
+PS-GTM,[48],1, of milestones. A tranche whose milestone is not met within , months after the start date is forfeited. | Change of control,deal,
+PS-GTM,[50],1,"d tranches whose milestones have been met vest in full, and ",% of each remaining tranche vests. | Conduct | Side arrangements,deal,
+PS-GTM,[Executive],1,ronically and in counterparts. | Sri Lux Inc. d/b/a Polestead | , | Signature | Print name | Title | Date | Notice address,deal,
+PS-IMP-DE,[TT.MM.JJJJ],1,Lux Inc. d/b/a Polestead | polestead.com/de/impressum | Deutsch | , | 2026.11 | Inhalt | IMPRESSUM (ANGABEN GEMÄSS § 5 DDG) | Angabe | In,deal,
+PS-IMP-DE,[Street address],1, (Inc.) nach dem Recht des US-Bundesstaates Texas | Anschrift | ,", Houston, Texas [ZIP], Vereinigte Staaten von Amerika | Vertr",constant,company.address.street
+PS-IMP-DE,[ZIP],1,"desstaates Texas | Anschrift | [Street address], Houston, Texas ",", Vereinigte Staaten von Amerika | Vertretungsberechtigt | Sathy",constant,company.address.postcode
+PS-IMP-DE,[Texas SOS file number],1,"ister | Secretary of State of the State of Texas, File Number ", | E-Mail | legal@polestead.com | Telefon | [Telephone] | Kontaktformu,constant,company.registration.file_number
+PS-IMP-DE,[Telephone],1, [Texas SOS file number] | E-Mail | legal@polestead.com | Telefon | , | Kontaktformular | https://polestead.com/contact | EU-Vertreter ,constant,company.telephone
+PS-IMP-DE,[EU representative name],1,tps://polestead.com/contact | EU-Vertreter nach Art. 27 DSGVO | ,", [EU representative address], eu-rep@polestead.com | Verantwo",constant,company.eu_representative.name
+PS-IMP-DE,[EU representative address],1,"t | EU-Vertreter nach Art. 27 DSGVO | [EU representative name], ",", eu-rep@polestead.com | Verantwortlich für Inhalte nach § 18 ",constant,company.eu_representative.address
+PS-IMP-DE,[Street address],2,"nverarbeitung ist die Sri Lux Inc., handelnd als Polestead, ",", Houston, Texas [ZIP], USA, E-Mail: privacy@polestead.com. | ",constant,company.address.street
+PS-IMP-DE,[ZIP],2,"., handelnd als Polestead, [Street address], Houston, Texas ",", USA, E-Mail: privacy@polestead.com. | EU-Vertreter. Unser Ve",constant,company.address.postcode
+PS-IMP-DE,[EU representative name],2, Vertreter in der Europäischen Union nach Art. 27 DSGVO ist ,", [EU representative address], eu-rep@polestead.com. | Datensc",constant,company.eu_representative.name
+PS-IMP-DE,[EU representative address],2,"chen Union nach Art. 27 DSGVO ist [EU representative name], ",", eu-rep@polestead.com. | Datenschutzbeauftragter. Nach Prüfun",constant,company.eu_representative.address
+PS-IMP-DE,[Vor Veröffentlichung bestätigen.],1,"yse-, Werbe- oder Social-Media-Tracking findet nicht statt. ", | Künftiger Einsatz. Nicht notwendige Cookies werden wir nur ,note,note.ps-imp-de.01
+PS-IMP-DE,[E-Mail-Dienstleister],1,"Inc. (Website-Auslieferung), Hetzner Online GmbH (Hosting), ",", Stripe, Inc. (Zahlungen) und [CRM-System]. [Liste vor Verö",deal,
+PS-IMP-DE,[CRM-System],1,"ting), [E-Mail-Dienstleister], Stripe, Inc. (Zahlungen) und ",. [Liste vor Veröffentlichung bestätigen.] | USA. Polestead ha,deal,
+PS-IMP-DE,[Liste vor Veröffentlichung bestätigen.],1,"-Dienstleister], Stripe, Inc. (Zahlungen) und [CRM-System]. ", | USA. Polestead hat seinen Sitz in den USA. Wenn Sie uns kon,note,note.ps-imp-de.02
+PS-IND,[Name],1,PORATION | INDEMNITEE | CAPACITY | EFFECTIVE | VERSION | Sri Lux Inc. | , | [Director / officer] | [YYYY-MM-DD] | 2026.11 | This Agreement is,deal,
+PS-IND,[Director / officer],1,N | INDEMNITEE | CAPACITY | EFFECTIVE | VERSION | Sri Lux Inc. | [Name] | , | [YYYY-MM-DD] | 2026.11 | This Agreement is between Sri Lux Inc.,choice,
+PS-IND,[YYYY-MM-DD],1, | EFFECTIVE | VERSION | Sri Lux Inc. | [Name] | [Director / officer] | ," | 2026.11 | This Agreement is between Sri Lux Inc., a Texas cor",deal,
+PS-IND,[the disinterested directors],1,"ector, this Agreement has been disclosed to and approved by ", [the shareholders] in accordance with Section 21.418 of the,deal,
+PS-IND,[the shareholders],1, disclosed to and approved by [the disinterested directors] , in accordance with Section 21.418 of the Texas Business Org,deal,
+PS-IND,[Indemnitee],1, be signed electronically and in counterparts. | Sri Lux Inc. | , | Signature | Print name | Title | Date | Notice address,deal,
+PS-IPA,[YYYY-MM-DD],1,". d/b/a Polestead | Founder, DAICHEM USA LLC, Daichem Pte Ltd | ", | For signature by all parties | 2026.11 | This Agreement transfe,deal,
+PS-IPA,[Street address],1,"Lux Inc., a Texas corporation, doing business as Polestead, ",", Houston, Texas [ZIP] | Founder | Sathyanarayan Mohan, [address",constant,company.address.street
+PS-IPA,[ZIP],1,"ing business as Polestead, [Street address], Houston, Texas "," | Founder | Sathyanarayan Mohan, [address] | DAICHEM USA LLC | A Te",constant,company.address.postcode
+PS-IPA,[address],1,"address], Houston, Texas [ZIP] | Founder | Sathyanarayan Mohan, "," | DAICHEM USA LLC | A Texas limited liability company, [address",deal,
+PS-IPA,[address],2,"address] | DAICHEM USA LLC | A Texas limited liability company, ",. Authority: written consent of its [managers / members] dat,deal,
+PS-IPA,[managers / members],1,"ility company, [address]. Authority: written consent of its ", dated [date]. | Daichem Pte Ltd | A Singapore private limited c,choice,
+PS-IPA,[date],1,uthority: written consent of its [managers / members] dated ,. | Daichem Pte Ltd | A Singapore private limited company (UEN [,deal,
+PS-IPA,[number],1,]. | Daichem Pte Ltd | A Singapore private limited company (UEN ,"), [address]. Authority: board resolution dated [date]. | CONS",deal,
+PS-IPA,[address],3,"Pte Ltd | A Singapore private limited company (UEN [number]), ",. Authority: board resolution dated [date]. | CONSIDERATION | Fo,deal,
+PS-IPA,[date],2,"UEN [number]), [address]. Authority: board resolution dated ",. | CONSIDERATION | Founder | The issue of founder shares under th,deal,
+PS-IPA,[amount],1,tion's organisational consent (PS-OBC). | DAICHEM USA LLC | USD ,", [determined on advice on fair value and tax]. | Daichem Pte ",deal,
+PS-IPA,[determined on advice on fair value and tax],1,"anisational consent (PS-OBC). | DAICHEM USA LLC | USD [amount], ",". | Daichem Pte Ltd | USD [amount], [determined on advice on fai",note,note.ps-ipa.01
+PS-IPA,[amount],2,mined on advice on fair value and tax]. | Daichem Pte Ltd | USD ,", [determined on advice on fair value, transfer pricing and ",deal,
+PS-IPA,"[determined on advice on fair value, transfer pricing and Singapore tax]",1,"dvice on fair value and tax]. | Daichem Pte Ltd | USD [amount], ",. | Terms | Polestead-authored. | Background | Purpose. Before and a,note,note.ps-ipa.02
+PS-IPA,[Founder to confirm after reviewing his employment agreements.],1,"ployer's confidential information, equipment or facilities. ", | Open source. The Assigned Assets include third-party open-s,note,note.ps-ipa.03
+PS-IPA,[Founder / DAICHEM USA LLC / Daichem Pte Ltd],1,loped under the earlier working names TPRM7 and VendorWatch | ," | GitHub organisation Polestead, repositories TPRM7 and TPRM-",choice,
+PS-IPA,[Assignor],1,"y mappings, question banks, templates and data compilations | ", | [Description] | Domain names | [Registrant] | polestead.com [and ,deal,
+PS-IPA,[Description],1," question banks, templates and data compilations | [Assignor] | "," | Domain names | [Registrant] | polestead.com [and others] | Cloud,",deal,
+PS-IPA,[Registrant],1,and data compilations | [Assignor] | [Description] | Domain names | ," | polestead.com [and others] | Cloud, email and service account",deal,
+PS-IPA,[and others],1,gnor] | [Description] | Domain names | [Registrant] | polestead.com ," | Cloud, email and service accounts | [Account holder] | [List] | T",deal,
+PS-IPA,[Account holder],1,"olestead.com [and others] | Cloud, email and service accounts | ", | [List] | Trademark rights in POLESTEAD | [Assignor] | Common-law ,deal,
+PS-IPA,[List],1," others] | Cloud, email and service accounts | [Account holder] | ", | Trademark rights in POLESTEAD | [Assignor] | Common-law rights ,deal,
+PS-IPA,[Assignor],2,ounts | [Account holder] | [List] | Trademark rights in POLESTEAD | , | Common-law rights and any applications | SCHEDULE 2: EXISTING,deal,
+PS-IPA,"[None, or list]",1,ISTING RIGHTS GRANTED TO OTHERS | Asset | Right granted | To whom | ," | SIGNATURES | Signed by the parties, or their authorised repre",deal,
+PS-ML-FR,[JJ/MM/AAAA],1, d/b/a Polestead | polestead.com/fr/mentions-legales | Français | , | 2026.11 | Contenu | MENTIONS LÉGALES (ARTICLE 6 DE LA LOI N° 20,deal,
+PS-ML-FR,[Street address],1,"is), exerçant sous le nom commercial Polestead | Siège social | ",", Houston, Texas [ZIP], États-Unis | Immatriculation | Secretary",constant,company.address.street
+PS-ML-FR,[ZIP],1,"ial Polestead | Siège social | [Street address], Houston, Texas ",", États-Unis | Immatriculation | Secretary of State of the State",constant,company.address.postcode
+PS-ML-FR,[Texas SOS file number],1,"riculation | Secretary of State of the State of Texas, numéro "," | Directeur de la publication | Sathyanarayan Mohan, Chief Exec",constant,company.registration.file_number
+PS-ML-FR,[Telephone],1,"Mohan, Chief Executive Officer | Contact | legal@polestead.com, ",", https://polestead.com/contact | Représentant dans l'Union eu",constant,company.telephone
+PS-ML-FR,[EU representative name],1,t | Représentant dans l'Union européenne (article 27 du RGPD) | ,", [EU representative address], eu-rep@polestead.com | Hébergeu",constant,company.eu_representative.name
+PS-ML-FR,[EU representative address],1,"n européenne (article 27 du RGPD) | [EU representative name], ",", eu-rep@polestead.com | Hébergeur du site | Cloudflare, Inc., 1",constant,company.eu_representative.address
+PS-ML-FR,[téléphone de l'hébergeur à confirmer],1,", 101 Townsend Street, San Francisco, CA 94107, États-Unis, ", | Les services proposés sur polestead.com sont exclusivement ,note,note.ps-ml-fr.01
+PS-ML-FR,[Street address],2," | Responsable. Sri Lux Inc., exerçant sous le nom Polestead, ",", Houston, Texas [ZIP], États-Unis, privacy@polestead.com. | R",constant,company.address.street
+PS-ML-FR,[ZIP],2,"ant sous le nom Polestead, [Street address], Houston, Texas ",", États-Unis, privacy@polestead.com. | Représentant. Notre rep",constant,company.address.postcode
+PS-ML-FR,[EU representative name],2,ans l'Union européenne au titre de l'article 27 du RGPD est ,", [EU representative address]. | Traitements | Finalité | Données | ",constant,company.eu_representative.name
+PS-ML-FR,[EU representative address],2,"titre de l'article 27 du RGPD est [EU representative name], ",. | Traitements | Finalité | Données | Base légale | Durée de conserva,constant,company.eu_representative.address
+PS-ML-FR,[À confirmer avant publication.],1,"'audience, de publicité ou de réseaux sociaux n'est déposé. ", | Usage futur. Tout traceur non essentiel ne sera déposé qu'a,note,note.ps-ml-fr.02
+PS-ML-FR,[prestataire e-mail],1,"nc. (diffusion du site), Hetzner Online GmbH (hébergement), ",", Stripe, Inc. (paiements) et [outil CRM]. [Liste à confirme",deal,
+PS-ML-FR,[outil CRM],1,"rgement), [prestataire e-mail], Stripe, Inc. (paiements) et ",. [Liste à confirmer avant publication.] | États-Unis. Poleste,deal,
+PS-ML-FR,[Liste à confirmer avant publication.],1,"estataire e-mail], Stripe, Inc. (paiements) et [outil CRM]. ", | États-Unis. Polestead est établie aux États-Unis : les donn,note,note.ps-ml-fr.03
+PS-MNDA,[Counterparty legal name],1,TY | REFERENCE | FRAMEWORK | VERSION | Sri Lux Inc. d/b/a Polestead | , | PS-NDA-[____] | Bonterms Mutual NDA v1.0 | 2026.11 | By signing t,deal,
+PS-MNDA,[____],1,i Lux Inc. d/b/a Polestead | [Counterparty legal name] | PS-NDA-, | Bonterms Mutual NDA v1.0 | 2026.11 | By signing this Cover Page,reference,
+PS-MNDA,[Street address],1," Lux Inc., a Texas corporation, doing business as Polestead | ",", Houston, Texas [ZIP], United States | Notices: legal@poleste",constant,company.address.street
+PS-MNDA,[ZIP],1,"oing business as Polestead | [Street address], Houston, Texas ",", United States | Notices: legal@polestead.com | Counterparty | [L",constant,company.address.postcode
+PS-MNDA,[Legal name],1,"P], United States | Notices: legal@polestead.com | Counterparty | ",", a [jurisdiction] [entity type] | [Registered address] | Notice",deal,
+PS-MNDA,[jurisdiction],1,"s | Notices: legal@polestead.com | Counterparty | [Legal name], a ", [entity type] | [Registered address] | Notices: [email] | KEY TER,deal,
+PS-MNDA,[entity type],1,"l@polestead.com | Counterparty | [Legal name], a [jurisdiction] ", | [Registered address] | Notices: [email] | KEY TERMS | Purpose | Eva,deal,
+PS-MNDA,[Registered address],1,"m | Counterparty | [Legal name], a [jurisdiction] [entity type] | ", | Notices: [email] | KEY TERMS | Purpose | Evaluating a potential b,deal,
+PS-MNDA,[email],1, [jurisdiction] [entity type] | [Registered address] | Notices: , | KEY TERMS | Purpose | Evaluating a potential business relations,deal,
+PS-MNDA,[Counterparty legal name],2,ronically and in counterparts. | Sri Lux Inc. d/b/a Polestead | , | Signature | Print name | Title | Date | Notice address | Standard Ter,deal,
+PS-OBC,[YYYY-MM-DD],1,TION | EFFECTIVE | STATUTE | VERSION | Sri Lux Inc. | Written consent | , | TBOC Section 6.201 | 2026.11 | Resolutions | Polestead-authored. | ,deal,
+PS-OBC,[date],1,"n consent, adopts the following resolutions effective as of ",". | Formation and Bylaws | Certificate of formation. RESOLVED, t",deal,
+PS-OBC,[registered agent],1,"ration. | Registered agent. RESOLVED, that the appointment of ", at [address] as registered agent is ratified. | Officers | Elec,deal,
+PS-OBC,[address],1,"nt. RESOLVED, that the appointment of [registered agent] at ", as registered agent is ratified. | Officers | Election. RESOLVE,deal,
+PS-OBC,"[8,000,000]",1,"al Property | Issuance. RESOLVED, that the Corporation issues "," shares of common stock, par value USD 0.0001, to Sathyanara",deal,
+PS-OBC,[amount],1," USD 0.0001, to Sathyanarayan Mohan in exchange for (a) USD ", in cash and (b) the assignment of intellectual property und,deal,
+PS-OBC,[the founder shares are fully vested],1,"mines to be adequate consideration. | Vesting. RESOLVED, that "," [the founder shares vest over four years, with 25% vesting ",choice,
+PS-OBC,"[2,000,000]",1,"at the 2026 Equity Incentive Plan (PS-EIP) is adopted, with "," shares reserved, subject to shareholder approval within 12 ",deal,
+PS-OBC,[banks],1,"accounts in the name of ""Sri Lux Inc. d/b/a Polestead"" with ",", and that the signature of the Chief Executive Officer alon",deal,
+PS-OBC,[up to USD [amount],1,ignature of the Chief Executive Officer alone is sufficient ," per transaction]. | Expenses. RESOLVED, that the Corporation ",deal,
+PS-OFR,[Name],1,DIDATE | ROLE | START DATE | VERSION | Sri Lux Inc. d/b/a Polestead | , | [Job title] | [YYYY-MM-DD] | 2026.11 | Offer | Polestead-authored. | ,deal,
+PS-OFR,[Job title],1,ROLE | START DATE | VERSION | Sri Lux Inc. d/b/a Polestead | [Name] | , | [YYYY-MM-DD] | 2026.11 | Offer | Polestead-authored. | Dear [First ,deal,
+PS-OFR,[YYYY-MM-DD],1,ATE | VERSION | Sri Lux Inc. d/b/a Polestead | [Name] | [Job title] | ," | 2026.11 | Offer | Polestead-authored. | Dear [First name], | Sri Lu",deal,
+PS-OFR,[First name],1, title] | [YYYY-MM-DD] | 2026.11 | Offer | Polestead-authored. | Dear ,", | Sri Lux Inc., a Texas corporation doing business as Polest",deal,
+PS-OFR,[Job title],2,the following terms. | Position | Role. You will be employed as ,", reporting to the Chief Executive Officer, starting on [Sta",deal,
+PS-OFR,[Start date],1,"tle], reporting to the Chief Executive Officer, starting on ",. Your position is [full-time] and is classified as [exempt],deal,
+PS-OFR,[full-time],1,"ecutive Officer, starting on [Start date]. Your position is ", and is classified as [exempt] under the Fair Labor Standard,deal,
+PS-OFR,[exempt],1,rt date]. Your position is [full-time] and is classified as , under the Fair Labor Standards Act. | Location. You will work,deal,
+PS-OFR,[remotely from [state],1,under the Fair Labor Standards Act. | Location. You will work ,] [at [location]]. | Compensation and Benefits | Base salary. US,deal,
+PS-OFR,[at [location],1,ndards Act. | Location. You will work [remotely from [state]] ,]. | Compensation and Benefits | Base salary. USD [amount] per y,deal,
+PS-OFR,[amount],1,[at [location]]. | Compensation and Benefits | Base salary. USD ," per year, paid semi-monthly and subject to required withhol",deal,
+PS-OFR,[Not applicable.],1,mi-monthly and subject to required withholding. | Commission. , [You are eligible for commission under the Company's writte,deal,
+PS-OFR,[The Company does not currently offer health benefits.],1,"milarly situated employees, under the terms of those plans. "," | Time off. [Number] days of paid time off per year, plus US ",choice,
+PS-OFR,[Number],1,ompany does not currently offer health benefits.] | Time off. ," days of paid time off per year, plus US federal holidays. | E",deal,
+PS-OFR,[number],1,"Equity Incentive Plan, you will be granted an option to buy ", shares of common stock at an exercise price equal to fair m,deal,
+PS-OFR,[date],1,of Texas. | Acceptance. Please sign and return this letter by ," to accept this offer. | ACCEPTANCE | Signed for the Company, an",deal,
+PS-OFR,[Candidate],1,and accepted by the candidate. | Sri Lux Inc. d/b/a Polestead | , | Signature | Print name | Date,deal,
+PS-PART,[Partner legal name],1,ER | REFERENCE | FRAMEWORK | VERSION | Sri Lux Inc. d/b/a Polestead | , | PS-[2026]-[____] | Common Paper Partnership v1.0 | 2026.11 | This,deal,
+PS-PART,[2026],1,ERSION | Sri Lux Inc. d/b/a Polestead | [Partner legal name] | PS-,-[____] | Common Paper Partnership v1.0 | 2026.11 | This Cover Pag,reference,
+PS-PART,[____],1,Sri Lux Inc. d/b/a Polestead | [Partner legal name] | PS-[2026]-, | Common Paper Partnership v1.0 | 2026.11 | This Cover Page and t,reference,
+PS-PART,[Street address],1," Lux Inc., a Texas corporation, doing business as Polestead | ",", Houston, Texas [ZIP], United States | Notices: legal@poleste",constant,company.address.street
+PS-PART,[ZIP],1,"oing business as Polestead | [Street address], Houston, Texas ",", United States | Notices: legal@polestead.com | Partner | [Legal ",constant,company.address.postcode
+PS-PART,[Legal name],1,"s [ZIP], United States | Notices: legal@polestead.com | Partner | ",", a [jurisdiction] [entity type] | [Registered address] | Notice",deal,
+PS-PART,[jurisdiction],1,"States | Notices: legal@polestead.com | Partner | [Legal name], a ", [entity type] | [Registered address] | Notices: [email] | BUSINES,deal,
+PS-PART,[entity type],1," legal@polestead.com | Partner | [Legal name], a [jurisdiction] ", | [Registered address] | Notices: [email] | BUSINESS TERMS | Obliga,deal,
+PS-PART,[Registered address],1,"ad.com | Partner | [Legal name], a [jurisdiction] [entity type] | ", | Notices: [email] | BUSINESS TERMS | Obligations | Partner: introd,deal,
+PS-PART,[email],1, [jurisdiction] [entity type] | [Registered address] | Notices: , | BUSINESS TERMS | Obligations | Partner: introduce prospective c,deal,
+PS-PART,"[Germany, Austria and Switzerland]",1,tendable by 60 days where a pilot is in progress. | Territory | , [France and Benelux] [other]. | Brand Guidelines | Polestead br,deal,
+PS-PART,[France and Benelux],1,"s in progress. | Territory | [Germany, Austria and Switzerland] ", [other]. | Brand Guidelines | Polestead brand guidelines as pro,deal,
+PS-PART,[other],1,"ory | [Germany, Austria and Switzerland] [France and Benelux] ",. | Brand Guidelines | Polestead brand guidelines as provided by,deal,
+PS-PART,[For a Partner established in the EU: the laws of the Federal Republic of Germany.],1,"f the State of Texas, excluding its conflict-of-laws rules. ", | Chosen Courts | The state and federal courts in Harris County,choice,
+PS-PART,[EU Partner: courts of Frankfurt am Main.],1,"ourts | The state and federal courts in Harris County, Texas. ", | General Cap Amount | The referral fees paid or payable in the,choice,
+PS-PART,[Partner legal name],2,ronically and in counterparts. | Sri Lux Inc. d/b/a Polestead | , | Signature | Print name | Title | Date | Notice address | Standard Ter,deal,
+PS-PART,[https://commonpaper.com/standards/partnership-agreement/1.0],1,"Partnership Standard Terms Version 1.0, which are posted at ","(commonpaper.com/standards/partnership-agreement/1.0). | ""Vari",deal,
+PS-PIIA,[Name],1, PROVIDER | ROLE | COUNTRY | VERSION | Sri Lux Inc. d/b/a Polestead | , | [Employee / contractor / founder] | [Country of work] | 2026.11,deal,
+PS-PIIA,[Employee / contractor / founder],1,ER | ROLE | COUNTRY | VERSION | Sri Lux Inc. d/b/a Polestead | [Name] | , | [Country of work] | 2026.11 | This Agreement is between the Com,choice,
+PS-PIIA,[Country of work],1,c. d/b/a Polestead | [Name] | [Employee / contractor / founder] | , | 2026.11 | This Agreement is between the Company and the Servi,deal,
+PS-PIIA,[Street address],1," Lux Inc., a Texas corporation, doing business as Polestead | ",", Houston, Texas [ZIP], United States | Notices: legal@poleste",constant,company.address.street
+PS-PIIA,[ZIP],1,"oing business as Polestead | [Street address], Houston, Texas ",", United States | Notices: legal@polestead.com | Service Provide",constant,company.address.postcode
+PS-PIIA,[Name],2,United States | Notices: legal@polestead.com | Service Provider | , | [Address] | [Email] | Terms | Polestead-authored. | Definitions | Com,deal,
+PS-PIIA,[Address],1,States | Notices: legal@polestead.com | Service Provider | [Name] | , | [Email] | Terms | Polestead-authored. | Definitions | Company. Sri ,deal,
+PS-PIIA,[Email],1,ices: legal@polestead.com | Service Provider | [Name] | [Address] | , | Terms | Polestead-authored. | Definitions | Company. Sri Lux Inc.,deal,
+PS-PIIA,"[None, or list]",1,arties. | SCHEDULE 1: PRIOR INVENTIONS | Title | Date | Description | ," | SIGNATURES | Signed by the parties, or their authorised repre",deal,
+PS-PIIA,[Service Provider],1,ronically and in counterparts. | Sri Lux Inc. d/b/a Polestead | , | Signature | Print name | Title | Date | Notice address,deal,
+PS-PILOT,[Customer legal name],1,ER | REFERENCE | FRAMEWORK | VERSION | Sri Lux Inc. d/b/a Polestead | , | PS-[2026]-[____] | Common Paper Pilot v1.1 | 2026.11 | This Cover,deal,
+PS-PILOT,[2026],1,RSION | Sri Lux Inc. d/b/a Polestead | [Customer legal name] | PS-,-[____] | Common Paper Pilot v1.1 | 2026.11 | This Cover Page and ,reference,
+PS-PILOT,[____],1,ri Lux Inc. d/b/a Polestead | [Customer legal name] | PS-[2026]-, | Common Paper Pilot v1.1 | 2026.11 | This Cover Page and the Sta,reference,
+PS-PILOT,[Street address],1," Lux Inc., a Texas corporation, doing business as Polestead | ",", Houston, Texas [ZIP], United States | Notices: legal@poleste",constant,company.address.street
+PS-PILOT,[ZIP],1,"oing business as Polestead | [Street address], Houston, Texas ",", United States | Notices: legal@polestead.com | Customer | [Legal",constant,company.address.postcode
+PS-PILOT,[Legal name],1," [ZIP], United States | Notices: legal@polestead.com | Customer | ",", a [jurisdiction] [entity type] | [Registered address] | Notice",deal,
+PS-PILOT,[jurisdiction],1,"tates | Notices: legal@polestead.com | Customer | [Legal name], a ", [entity type] | [Registered address] | Notices: [email] | KEY TER,deal,
+PS-PILOT,[entity type],1,"legal@polestead.com | Customer | [Legal name], a [jurisdiction] ", | [Registered address] | Notices: [email] | KEY TERMS | Product | The,deal,
+PS-PILOT,[Registered address],1,"d.com | Customer | [Legal name], a [jurisdiction] [entity type] | ", | Notices: [email] | KEY TERMS | Product | The Polestead third-part,deal,
+PS-PILOT,[email],1, [jurisdiction] [entity type] | [Registered address] | Notices: , | KEY TERMS | Product | The Polestead third-party risk management,deal,
+PS-PILOT,[EU / US],1,"risk management platform, as a managed cloud service in the "," region or as self-hosted software, as selected here: [manag",choice,
+PS-PILOT,[managed / self-hosted],1," / US] region or as self-hosted software, as selected here: ",. | Pilot Period | 90 days from the Effective Date. | Pilot fee | [N,choice,
+PS-PILOT,"[None / EUR 1,500 excluding VAT, invoiced on the Effective Date]",1,d]. | Pilot Period | 90 days from the Effective Date. | Pilot fee | ,. | Effective Date | The date of the last signature on this Cove,choice,
+PS-PILOT,[The laws of the State of Texas],1,ate of the last signature on this Cover Page. | Governing Law | , [The laws of the Federal Republic of Germany] [The laws of ,choice,
+PS-PILOT,[The laws of the Federal Republic of Germany],1, Cover Page. | Governing Law | [The laws of the State of Texas] ," [The laws of France], excluding conflict-of-laws rules and ",choice,
+PS-PILOT,[The laws of France],1,ate of Texas] [The laws of the Federal Republic of Germany] ,", excluding conflict-of-laws rules and the UN Convention on ",choice,
+PS-PILOT,"[State and federal courts in Harris County, Texas]",1,ontracts for the International Sale of Goods. | Chosen Courts | , [Courts of Frankfurt am Main] [Tribunal des activités écono,choice,
+PS-PILOT,[Courts of Frankfurt am Main],1,"n Courts | [State and federal courts in Harris County, Texas] ", [Tribunal des activités économiques de Paris]. | General Cap ,deal,
+PS-PILOT,[Tribunal des activités économiques de Paris],1,"urts in Harris County, Texas] [Courts of Frankfurt am Main] ",". | General Cap Amount | The greater of EUR 2,500 and the fees p",choice,
+PS-PILOT,[email],2,nt. | Notice Address | Provider: legal@polestead.com. Customer: ,. | CHANGES TO THE STANDARD TERMS | The following terms suppleme,deal,
+PS-PILOT,[Customer legal name],2,ronically and in counterparts. | Sri Lux Inc. d/b/a Polestead | , | Signature | Print name | Title | Date | Notice address | Standard Ter,deal,
+PS-PRIV,[YYYY-MM-DD],1,"ad.com, enquiries, Trust Center | polestead.com/legal/privacy | ", | 2026.11 | Notice | Polestead-authored. | Who We Are | Controller. S,deal,
+PS-PRIV,[Street address],1," Lux Inc., a Texas corporation doing business as Polestead, ",", Houston, Texas [ZIP], United States (""Polestead"", ""we"") is",constant,company.address.street
+PS-PRIV,[ZIP],1,"ing business as Polestead, [Street address], Houston, Texas ",", United States (""Polestead"", ""we"") is the controller of the",constant,company.address.postcode
+PS-PRIV,[EU representative name],1,"rticle 27 GDPR, our representative in the European Union is ",", [EU representative address] (eu-rep@polestead.com). | Data p",constant,company.eu_representative.name
+PS-PRIV,[EU representative address],1,"entative in the European Union is [EU representative name], ", (eu-rep@polestead.com). | Data protection officer. We have as,constant,company.eu_representative.address
+PS-PRIV,[Confirm before publication.],1,"do not use analytics, advertising or social-media tracking. "," | Future use. If we introduce non-essential cookies, we will ",note,note.ps-priv.01
+PS-PRIV,[email provider],1,"osting (Hetzner Online GmbH, Germany); transactional email (","); payments (Stripe, Inc.); and [customer relationship manag",deal,
+PS-PRIV,[customer relationship management tool],1,"onal email ([email provider]); payments (Stripe, Inc.); and ",. [Confirm list before publication.] | Other disclosures. We d,choice,
+PS-PRIV,[Confirm list before publication.],1,"Stripe, Inc.); and [customer relationship management tool]. ", | Other disclosures. We disclose personal data to authorities,note,note.ps-priv.02
+PS-REG,[Customer legal name],1,ER | REFERENCE | FRAMEWORK | VERSION | Sri Lux Inc. d/b/a Polestead | , | Attachment to PS-CSA / PS-SWL | Polestead terms | 2026.11 | This ,deal,
+PS-REG,[Yes / No],1,", as confirmed below. | CUSTOMER STATUS | DORA financial entity | ",". Competent authority: [e.g. BaFin, ACPR]. | NIS2 essential or",choice,
+PS-REG,"[e.g. BaFin, ACPR]",1,ATUS | DORA financial entity | [Yes / No]. Competent authority: ,. | NIS2 essential or important entity | [Yes / No]. Member Stat,deal,
+PS-REG,[Yes / No],2,"ity: [e.g. BaFin, ACPR]. | NIS2 essential or important entity | ",. Member State(s): [ ]. | Critical or important function | [Yes ,choice,
+PS-REG,[Yes / No],3,/ No]. Member State(s): [ ]. | Critical or important function | ,". If yes, Section 8 applies. | Customer's register identifier ",choice,
+PS-REG,[to be obtained by Provider],1,Customer's register identifier for Provider | Provider's LEI: ,". | Incident contact (Customer) | [name, email, telephone] | Incid",note,note.ps-reg.01
+PS-REG,"[name, email, telephone]",1,: [to be obtained by Provider]. | Incident contact (Customer) | , | Incident contact (Provider) | security@polestead.com | SIGNATUR,deal,
+PS-REG,[Customer legal name],2,ronically and in counterparts. | Sri Lux Inc. d/b/a Polestead | , | Signature | Print name | Title | Date | Notice address | Addendum Ter,deal,
+PS-REG,[24],1,"mer or Customer data, without undue delay and no later than ", hours after Provider becomes aware of it. Provider will the,deal,
+PS-RESP,[Confirm status and citation before publication.],1,shed requirements as in force on the date of this schedule. ,,note,note.ps-resp.01
+PS-ROPA,[Street address],1," Lux Inc., a Texas corporation doing business as Polestead, ",", Houston, Texas [ZIP], United States. Privacy contact: priv",constant,company.address.street
+PS-ROPA,[ZIP],1,"ing business as Polestead, [Street address], Houston, Texas ",", United States. Privacy contact: privacy@polestead.com. | Rep",constant,company.address.postcode
+PS-ROPA,[EU representative name],1,m. | Representative. EU representative under Article 27 GDPR: ,", [EU representative address]. | Review. This record is review",constant,company.eu_representative.name
+PS-ROPA,[EU representative address],1,"esentative under Article 27 GDPR: [EU representative name], ",. | Review. This record is reviewed every quarter and whenever,constant,company.eu_representative.address
+PS-ROPA,[name],1," a processing activity, recipient or system changes. Owner: ",. | PART A: POLESTEAD AS CONTROLLER (ARTICLE 30(1) GDPR) | ID | Ac,deal,
+PS-ROPA,[Email provider],1,"ects: name, work email, company, role, message | Art. 6(1)(b) | ",; [CRM tool] | Collected directly by a US controller; processo,deal,
+PS-ROPA,[CRM tool],1,"mail, company, role, message | Art. 6(1)(b) | [Email provider]; ", | Collected directly by a US controller; processors under SCC,deal,
+PS-ROPA,[CRM tool],2,": name, email, telephone, role, correspondence | Art. 6(1)(f) | ", | As C-02 | Relationship plus 24 months | C-04 | Trust Center accou,deal,
+PS-ROPA,[email provider],1,cceptance records | Art. 6(1)(b) and (f) | Hetzner Online GmbH; , | EU hosting; US access by Polestead staff under SCCs | Account,deal,
+PS-ROPA,[accounting tool],1,"s: name, email, invoices | Art. 6(1)(b) and (c) | Stripe, Inc.; ", | Processors under SCCs or adequacy | Contract plus 10 years | C-,deal,
+PS-ROPA,[Email provider],2,"ail updates | Subscribers: email, consent record | Art. 6(1)(a) | ", | Processor under SCCs | Until consent is withdrawn | C-08 | Recrui,deal,
+PS-ROPA,[Payment or contractor platform],1,"act details, contract and payment data | Art. 6(1)(b) and (c) | ", | Contractors in non-adequate countries under SCCs | Candidates,deal,
+PS-ROPA,[Support tool],1," email, report content, technical logs | Art. 6(1)(b) and (f) | ", | As C-04 | 24 months after closure | PART B: POLESTEAD AS PROCES,deal,
+PS-ROPA,[Confirm against the live stack.],1,ust match the live systems before this record is relied on. ,,note,note.ps-ropa.01
+PS-SDR,[Name or company],1,CTOR | COUNTRY | EFFECTIVE | VERSION | Sri Lux Inc. d/b/a Polestead | , | [Country] | [YYYY-MM-DD] | 2026.11 | This Agreement is between th,deal,
+PS-SDR,[Country],1,TIVE | VERSION | Sri Lux Inc. d/b/a Polestead | [Name or company] | , | [YYYY-MM-DD] | 2026.11 | This Agreement is between the Company ,deal,
+PS-SDR,[YYYY-MM-DD],1,ON | Sri Lux Inc. d/b/a Polestead | [Name or company] | [Country] | , | 2026.11 | This Agreement is between the Company and the Contr,deal,
+PS-SDR,[Street address],1," Lux Inc., a Texas corporation, doing business as Polestead | ",", Houston, Texas [ZIP], United States | Notices: legal@poleste",constant,company.address.street
+PS-SDR,[ZIP],1,"oing business as Polestead | [Street address], Houston, Texas ",", United States | Notices: legal@polestead.com | Contractor | [Nam",constant,company.address.postcode
+PS-SDR,[Name or company],2,"ZIP], United States | Notices: legal@polestead.com | Contractor | ",", [country] | [Address] | [Email] | Tax ID: [number] | STATEMENT OF ",deal,
+PS-SDR,[country],1," | Notices: legal@polestead.com | Contractor | [Name or company], ", | [Address] | [Email] | Tax ID: [number] | STATEMENT OF WORK | Servic,deal,
+PS-SDR,[Address],1,"legal@polestead.com | Contractor | [Name or company], [country] | ", | [Email] | Tax ID: [number] | STATEMENT OF WORK | Services | [ ] Out,deal,
+PS-SDR,[Email],1,"stead.com | Contractor | [Name or company], [country] | [Address] | ", | Tax ID: [number] | STATEMENT OF WORK | Services | [ ] Outbound an,deal,
+PS-SDR,[number],1,"ctor | [Name or company], [country] | [Address] | [Email] | Tax ID: ", | STATEMENT OF WORK | Services | [ ] Outbound and inbound prospec,deal,
+PS-SDR,[amount],1,and IT service partners in those countries. | Monthly fee | USD , per month. | Performance fees | USD 75 for each qualified meeti,deal,
+PS-SDR,[Contractor],1,ronically and in counterparts. | Sri Lux Inc. d/b/a Polestead | , | Signature | Print name | Title | Date | Notice address,deal,
+PS-SLA,[Customer legal name],1,ER | REFERENCE | FRAMEWORK | VERSION | Sri Lux Inc. d/b/a Polestead | , | Attachment to PS-CSA | Common Paper SLA v2.0 | 2026.11 | This Ser,deal,
+PS-SWL,[Customer legal name],1,ER | REFERENCE | FRAMEWORK | VERSION | Sri Lux Inc. d/b/a Polestead | , | PS-[2026]-[____] | Common Paper SLA v1.1 | 2026.11 | This Cover P,deal,
+PS-SWL,[2026],1,RSION | Sri Lux Inc. d/b/a Polestead | [Customer legal name] | PS-,-[____] | Common Paper SLA v1.1 | 2026.11 | This Cover Page and th,reference,
+PS-SWL,[____],1,ri Lux Inc. d/b/a Polestead | [Customer legal name] | PS-[2026]-, | Common Paper SLA v1.1 | 2026.11 | This Cover Page and the Stand,reference,
+PS-SWL,[Street address],1," Lux Inc., a Texas corporation, doing business as Polestead | ",", Houston, Texas [ZIP], United States | Notices: legal@poleste",constant,company.address.street
+PS-SWL,[ZIP],1,"oing business as Polestead | [Street address], Houston, Texas ",", United States | Notices: legal@polestead.com | Customer | [Legal",constant,company.address.postcode
+PS-SWL,[Legal name],1," [ZIP], United States | Notices: legal@polestead.com | Customer | ",", a [jurisdiction] [entity type] | [Registered address] | Notice",deal,
+PS-SWL,[jurisdiction],1,"tates | Notices: legal@polestead.com | Customer | [Legal name], a ", [entity type] | [Registered address] | Notices: [email] | ORDER F,deal,
+PS-SWL,[entity type],1,"legal@polestead.com | Customer | [Legal name], a [jurisdiction] ", | [Registered address] | Notices: [email] | ORDER FORM | Software | T,deal,
+PS-SWL,[Registered address],1,"d.com | Customer | [Legal name], a [jurisdiction] [entity type] | ", | Notices: [email] | ORDER FORM | Software | The Polestead third-pa,deal,
+PS-SWL,[email],1, [jurisdiction] [entity type] | [Registered address] | Notices: , | ORDER FORM | Software | The Polestead third-party risk manageme,deal,
+PS-SWL,"[list, or “none”]",1,cense Limits | Use by Customer and the Affiliates named here: ,. | Up to [number] active monitored vendors. | Up to [number] pr,deal,
+PS-SWL,[number],1,"mer and the Affiliates named here: [list, or “none”]. | Up to ", active monitored vendors. | Up to [number] production install,deal,
+PS-SWL,[number],2, or “none”]. | Up to [number] active monitored vendors. | Up to , production installations and [number] non-production instal,deal,
+PS-SWL,[number],3,itored vendors. | Up to [number] production installations and , non-production installations. | Permitted Uses | Customer's and,deal,
+PS-SWL,[USD / EUR],1,rvice for unaffiliated third parties is not permitted. | Fees | ," [amount] per year, invoiced annually in advance. | Payment Pr",choice,
+PS-SWL,[amount],1,affiliated third parties is not permitted. | Fees | [USD / EUR] ," per year, invoiced annually in advance. | Payment Process | Cus",deal,
+PS-SWL,[Customer legal name],2,ronically and in counterparts. | Sri Lux Inc. d/b/a Polestead | , | Signature | Print name | Title | Date | Notice address | Standard Ter,deal,
+PS-TC,[Street address],1,"Lux Inc., a Texas corporation, doing business as Polestead, ",", Houston, Texas [ZIP], United States (legal@polestead.com).",constant,company.address.street
+PS-TC,[ZIP],1,"ing business as Polestead, [Street address], Houston, Texas ",", United States (legal@polestead.com).",constant,company.address.postcode
+PS-TIA,[Date],1,cts and Polestead's analysis to support it. | Date and owner. ,. Owner: [name]. Review at least annually and on any materia,deal,
+PS-TIA,[name],1,ad's analysis to support it. | Date and owner. [Date]. Owner: ,. Review at least annually and on any material change in law,deal,
+PS-TIA,[Confirm location.],1,tres in the European Union operated by Hetzner Online GmbH. , | What makes this a transfer. Polestead staff in the United S,note,note.ps-tia.01
+PS-TIA,[Confirm current status.],1,t of that decision in September 2025; an appeal is pending. , Polestead is not certified under the Data Privacy Framework,note,note.ps-tia.02
+PS-TIA,[Confirm.],1,requests from public authorities for customer data to date. ," As a small B2B provider, it is not a typical target for bul",note,note.ps-tia.03
+PS-TIA,[Confirm commitment to publish.],1,ired. It will publish an annual count of requests received. , | Organisational. A documented procedure for handling governm,note,note.ps-tia.04
+PS-TIA,[name],2,"mented procedure for handling government requests, owned by ",", with legal review of each request. | Architectural. The self",deal,
+PS-VSA,[Supplier legal name],1,SUPPLIER | EFFECTIVE | USE | VERSION | Sri Lux Inc. d/b/a Polestead | ," | [YYYY-MM-DD] | Agencies, freelancers, testers, translators | 20",deal,
+PS-VSA,[YYYY-MM-DD],1, | VERSION | Sri Lux Inc. d/b/a Polestead | [Supplier legal name] | ," | Agencies, freelancers, testers, translators | 2026.11 | This Ag",deal,
+PS-VSA,[Street address],1," Lux Inc., a Texas corporation, doing business as Polestead | ",", Houston, Texas [ZIP], United States | Notices: legal@poleste",constant,company.address.street
+PS-VSA,[ZIP],1,"oing business as Polestead | [Street address], Houston, Texas ",", United States | Notices: legal@polestead.com | Supplier | [Suppl",constant,company.address.postcode
+PS-VSA,[Supplier legal name],2," [ZIP], United States | Notices: legal@polestead.com | Supplier | ",", a [jurisdiction] [entity type] | [Address] | [Email] | Terms | Pol",deal,
+PS-VSA,[jurisdiction],1,"ices: legal@polestead.com | Supplier | [Supplier legal name], a ", [entity type] | [Address] | [Email] | Terms | Polestead-authored. | S,deal,
+PS-VSA,[entity type],1,"estead.com | Supplier | [Supplier legal name], a [jurisdiction] ", | [Address] | [Email] | Terms | Polestead-authored. | Services | Statem,deal,
+PS-VSA,[Address],1,"plier | [Supplier legal name], a [jurisdiction] [entity type] | ", | [Email] | Terms | Polestead-authored. | Services | Statements of Wo,deal,
+PS-VSA,[Email],1,"plier legal name], a [jurisdiction] [entity type] | [Address] | ", | Terms | Polestead-authored. | Services | Statements of Work. The ,deal,
+PS-VSA,[amount],1,he greater of the fees under that Statement of Work and USD ,. | Insurance. The Supplier will maintain professional liabili,deal,
+PS-VSA,[amount],2,l maintain professional liability insurance of at least USD , per claim [and cyber liability insurance for security testi,deal,
+PS-VSA,[and cyber liability insurance for security testing],1,onal liability insurance of at least USD [amount] per claim ,. | Term and Termination | Termination for convenience. The Comp,choice,
+PS-VSA,[the laws of the Federal Republic of Germany and the courts of Frankfurt am Main],1,"s. Where the Supplier is established in the European Union, ", may be agreed in the Statement of Work. | Entire agreement. T,choice,
+PS-VSA,[Supplier],1,ronically and in counterparts. | Sri Lux Inc. d/b/a Polestead | , | Signature | Print name | Title | Date | Notice address,deal,

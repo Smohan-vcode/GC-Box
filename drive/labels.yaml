@@ -1,0 +1,4 @@
+labels:
+  - name: Classification
+    values: [Public, Internal, Confidential, Restricted]
+    required_in: ["00 Corporate", "10 Legal", "20 Finance", "70 People"]

@@ -1,0 +1,40 @@
+# Legal Pack v9, received 2026-11-20. 31 documents.
+# class and package membership are a first reading and carry confirm: true
+# where the owner must confirm before the template is activated.
+pack: {name: "Legal Pack", version: "v9", received: "2026-11-20"}
+documents:
+  # Company
+  - {code: PS-OBC, title: "Organisational Consent of the Sole Director", domain: company, class: signed, signers: company, action: none, retention: corporate, one_time: true}
+  - {code: PS-BYL, title: "Bylaws", domain: company, class: record, retention: corporate, review_months: 24, adopted_by: PS-OBC}
+  - {code: PS-EIP, title: "2026 Equity Incentive Plan", domain: company, class: record, retention: corporate, review_months: 12, adopted_by: PS-OBC}
+  - {code: PS-IPA, title: "Intellectual Property Assignment Agreement", domain: company, class: signed, signers: both, action: none, retention: corporate, one_time: true, prepared_by_hand: true}
+  - {code: PS-IND, title: "Indemnification Agreement", domain: company, class: signed, signers: both, action: none, retention: corporate}
+  - {code: PS-PIIA, title: "Proprietary Information and Inventions Agreement", domain: company, class: signed, signers: both, action: open_joiner_checklist, retention: agreement}
+  - {code: PS-OFR, title: "Offer Letter", domain: company, class: signed, signers: both, action: open_joiner_checklist, retention: agreement}
+  - {code: PS-ADV, title: "Advisor Agreement", domain: company, class: signed, signers: both, action: open_joiner_checklist, retention: agreement}
+  - {code: PS-GTM, title: "GTM Co-Founder Agreement", domain: company, class: signed, signers: both, action: open_joiner_checklist, retention: corporate}
+  - {code: PS-83B, title: "Section 83(b) Election", domain: company, class: signed, signers: holder, action: filing_reminder, retention: corporate, filed_externally: true, never_store: ["[SSN or ITIN]"]}
+  # Partner
+  - {code: PS-MNDA, title: "Mutual Non-Disclosure Agreement", domain: partner, class: signed, signers: both, action: clear_counterparty, retention: agreement}
+  - {code: PS-CSA, title: "Cloud Service Agreement", domain: partner, class: signed, signers: both, action: open_customer, retention: agreement}
+  - {code: PS-SWL, title: "Software License Agreement", domain: partner, class: signed, signers: both, action: call_order_system, retention: agreement}
+  - {code: PS-PILOT, title: "Pilot Agreement", domain: partner, class: signed, signers: both, action: open_customer, retention: agreement}
+  - {code: PS-DPP, title: "Design Partner Agreement", domain: partner, class: signed, signers: both, action: open_customer, retention: agreement}
+  - {code: PS-DPA, title: "Data Processing Agreement", domain: partner, class: signed, signers: both, action: link_to_lead_document, retention: agreement}
+  - {code: PS-SLA, title: "Service Level Agreement", domain: partner, class: attached, retention: agreement, confirm: true}
+  - {code: PS-AI, title: "AI Addendum", domain: partner, class: attached, retention: agreement, confirm: true}
+  - {code: PS-REG, title: "Regulatory Addendum", domain: partner, class: attached, retention: agreement, confirm: true}
+  - {code: PS-RESP, title: "Regulatory Responsibility Matrix", domain: partner, class: attached, retention: agreement, attached_to: PS-REG}
+  - {code: PS-PART, title: "Referral Partnership Agreement", domain: partner, class: signed, signers: both, action: open_partner, retention: agreement}
+  - {code: PS-SDR, title: "Marketing and Lead-Generation Services Agreement", domain: partner, class: signed, signers: both, action: open_vendor, retention: agreement}
+  - {code: PS-VSA, title: "Services Agreement (Supplier to Polestead)", domain: partner, class: signed, signers: both, action: open_vendor, retention: agreement}
+  # Notices and records
+  - {code: PS-PRIV, title: "Privacy Notice", domain: notice, class: published, language: en, retention: notice, review_months: 12}
+  - {code: PS-IMP-DE, title: "Impressum und Datenschutzerklärung", domain: notice, class: published, language: de, retention: notice, review_months: 12}
+  - {code: PS-ML-FR, title: "Mentions légales et politique de confidentialité", domain: notice, class: published, language: fr, retention: notice, review_months: 12}
+  - {code: PS-TC, title: "Trust Center Terms", domain: notice, class: published, language: en, retention: notice, review_months: 12}
+  - {code: PS-CVD, title: "Coordinated Vulnerability Disclosure Policy", domain: notice, class: published, language: en, retention: notice, review_months: 12}
+  - {code: PS-ROPA, title: "Records of Processing Activities", domain: notice, class: record, retention: notice, review_months: 12}
+  - {code: PS-TIA, title: "Transfer Impact Assessment", domain: notice, class: record, retention: notice, review_months: 12}
+  - {code: PS-CRA, title: "CRA Reporting Runbook", domain: notice, class: record, retention: notice, review_months: 12}
+activation_order: [PS-MNDA, PS-PILOT, PS-DPP, PS-DPA, PS-CSA, PS-SLA, PS-AI, PS-REG, PS-RESP, PS-SWL, PS-PART, PS-SDR, PS-VSA]

@@ -1,0 +1,2 @@
+# OAuth clients allowed to reach Gmail or Drive scopes. Empty until needed.
+allowed_apps: []

@@ -1,0 +1,43 @@
+# kind: mail | access | role
+# posting: public (anyone may post) | internal (domain only) | none
+# members: user ids from users.yaml. Role-group membership is owned by the
+# cockpit after first run and ignored by drift checks.
+defaults:
+  mail: {archive: true, join: invited_only, collaborative_inbox: false}
+
+groups:
+  # Public addresses
+  - {name: sales, kind: mail, posting: public, collaborative_inbox: true, members: [founder, service], label: Sales}
+  - {name: support, kind: mail, posting: public, aliases: [help], collaborative_inbox: true, members: [founder, service], label: Support, auto_reply: support}
+  - {name: security, kind: mail, posting: public, members: [founder, service], label: Security, auto_reply: security}
+  - {name: abuse, kind: mail, posting: public, members: [founder, service], label: Abuse, auto_reply: security}
+  - {name: privacy, kind: mail, posting: public, aliases: [dpo], members: [founder, service], label: Privacy, auto_reply: privacy}
+  - {name: legal, kind: mail, posting: public, members: [founder, service], label: Legal}
+  - {name: careers, kind: mail, posting: public, aliases: [jobs], members: [founder, service], label: Careers}
+  - {name: press, kind: mail, posting: public, members: [founder], label: Press}
+  - {name: info, kind: mail, posting: public, aliases: [hello, contact], members: [founder], label: Info}
+  - {name: trust, kind: mail, posting: public, members: [founder], label: Trust}
+  - {name: partners, kind: mail, posting: public, members: [founder], label: Partners}
+  - {name: billing, kind: mail, posting: public, members: [founder, service], label: Billing}
+  # Record capture
+  - {name: quotes, kind: mail, posting: internal, members: [service], label: Quotes, skip_inbox: true}
+  - {name: contracts, kind: mail, posting: public, members: [founder, service], label: Contracts}
+  - {name: nda, kind: mail, posting: public, members: [founder, service], label: NDA}
+  - {name: meetings, kind: mail, posting: internal, members: [service], label: Meetings, skip_inbox: true}
+  # Corporate and system
+  - {name: corporate, kind: mail, posting: public, members: [founder], label: Corporate}
+  - {name: accounts, kind: mail, posting: public, members: [founder, service], label: Accounts}
+  - {name: invoices, kind: mail, posting: public, aliases: [ap], members: [founder, service], label: Invoices}
+  - {name: alerts, kind: mail, posting: public, members: [founder, service], label: Alerts, skip_inbox: true}
+  - {name: postmaster, kind: mail, posting: public, aliases: [hostmaster, webmaster], members: [founder], label: Postmaster}
+  - {name: dmarc, kind: mail, posting: public, members: [service], label: DMARC, skip_inbox: true}
+  - {name: team, kind: mail, posting: internal, members: [founder], label: Team}
+  - {name: catchall, kind: mail, posting: public, members: [founder], label: Catchall, temporary_days: 90}
+  # Access groups
+  - {name: grp-staff, kind: access}
+  - {name: grp-sales, kind: access}
+  - {name: grp-legal, kind: access}
+  - {name: grp-finance, kind: access}
+  - {name: grp-engineering, kind: access}
+  - {name: grp-admins, kind: access}
+  # Role groups are generated from defaults/roles.yaml as role-<name>.

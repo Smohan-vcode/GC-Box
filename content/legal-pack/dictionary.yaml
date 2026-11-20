@@ -1,0 +1,32 @@
+# Seed for the Dictionary tab. Constants take their value from company.yaml > data.
+# Notes are open drafting items found in the pack; each needs an owner's answer.
+constants:
+  - {key: company.address.street, label: "Registered street address", owner: founder}
+  - {key: company.address.postcode, label: "Postcode", owner: founder}
+  - {key: company.eu_representative.name, label: "EU representative name", owner: founder}
+  - {key: company.eu_representative.address, label: "EU representative address", owner: founder}
+  - {key: company.registration.file_number, label: "State registration file number", owner: founder}
+  - {key: company.telephone, label: "Telephone", owner: founder}
+notes:
+  - {key: note.ps-cra.01, document: PS-CRA, question: "Confirm cover arrangement.", owner: "", status: EMPTY}
+  - {key: note.ps-csa.01, document: PS-CSA, question: "data-centre location to be confirmed by Provider", owner: "", status: EMPTY}
+  - {key: note.ps-csa.02, document: PS-CSA, question: "data-centre location to be confirmed by Provider", owner: "", status: EMPTY}
+  - {key: note.ps-csa.03, document: PS-CSA, question: "Confirm before signature.", owner: "", status: EMPTY}
+  - {key: note.ps-dpa.01, document: PS-DPA, question: "Falkenstein / Nuremberg, Germany — confirm", owner: "", status: EMPTY}
+  - {key: note.ps-imp-de.01, document: PS-IMP-DE, question: "Vor Veröffentlichung bestätigen.", owner: "", status: EMPTY}
+  - {key: note.ps-imp-de.02, document: PS-IMP-DE, question: "Liste vor Veröffentlichung bestätigen.", owner: "", status: EMPTY}
+  - {key: note.ps-ipa.01, document: PS-IPA, question: "determined on advice on fair value and tax", owner: "", status: EMPTY}
+  - {key: note.ps-ipa.02, document: PS-IPA, question: "determined on advice on fair value, transfer pricing and Singapore tax", owner: "", status: EMPTY}
+  - {key: note.ps-ipa.03, document: PS-IPA, question: "Founder to confirm after reviewing his employment agreements.", owner: "", status: EMPTY}
+  - {key: note.ps-ml-fr.01, document: PS-ML-FR, question: "téléphone de l'hébergeur à confirmer", owner: "", status: EMPTY}
+  - {key: note.ps-ml-fr.02, document: PS-ML-FR, question: "À confirmer avant publication.", owner: "", status: EMPTY}
+  - {key: note.ps-ml-fr.03, document: PS-ML-FR, question: "Liste à confirmer avant publication.", owner: "", status: EMPTY}
+  - {key: note.ps-priv.01, document: PS-PRIV, question: "Confirm before publication.", owner: "", status: EMPTY}
+  - {key: note.ps-priv.02, document: PS-PRIV, question: "Confirm list before publication.", owner: "", status: EMPTY}
+  - {key: note.ps-reg.01, document: PS-REG, question: "to be obtained by Provider", owner: "", status: EMPTY}
+  - {key: note.ps-resp.01, document: PS-RESP, question: "Confirm status and citation before publication.", owner: "", status: EMPTY}
+  - {key: note.ps-ropa.01, document: PS-ROPA, question: "Confirm against the live stack.", owner: "", status: EMPTY}
+  - {key: note.ps-tia.01, document: PS-TIA, question: "Confirm location.", owner: "", status: EMPTY}
+  - {key: note.ps-tia.02, document: PS-TIA, question: "Confirm current status.", owner: "", status: EMPTY}
+  - {key: note.ps-tia.03, document: PS-TIA, question: "Confirm.", owner: "", status: EMPTY}
+  - {key: note.ps-tia.04, document: PS-TIA, question: "Confirm commitment to publish.", owner: "", status: EMPTY}

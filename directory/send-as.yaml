@@ -1,0 +1,4 @@
+# Role addresses each user may send from.
+send_as:
+  founder: [sales, support, security, privacy, legal, careers, press, info, trust, partners, billing, contracts, nda, corporate, invoices]
+  service: [support, security, privacy, legal, contracts, nda]

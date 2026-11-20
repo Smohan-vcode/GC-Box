@@ -1,0 +1,12 @@
+# roles: manager | content_manager | contributor | commenter | viewer
+# external: off | per_file | on
+drives:
+  - {name: "00 Corporate", external: off, classification: Restricted, access: {grp-admins: manager}}
+  - {name: "10 Legal", external: off, classification: Confidential, access: {grp-legal: manager}, folder_access: {"01 Templates": {grp-sales: viewer}}}
+  - {name: "20 Finance", external: off, classification: Confidential, access: {grp-finance: manager}}
+  - {name: "30 Sales", external: per_file, classification: Internal, access: {grp-sales: manager, grp-staff: viewer}}
+  - {name: "40 Marketing", external: on, classification: Internal, access: {grp-staff: content_manager}}
+  - {name: "50 Product", external: off, classification: Internal, access: {grp-engineering: manager, grp-staff: viewer}}
+  - {name: "60 Security and Compliance", external: per_file, classification: Internal, access: {grp-admins: manager}, folder_access: {"Policies": {grp-staff: viewer}}}
+  - {name: "70 People", external: off, classification: Restricted, access: {grp-admins: manager}}
+  - {name: "90 Admin", external: off, classification: Confidential, access: {grp-admins: manager}}
