@@ -1,0 +1,7 @@
+# Copy to terraform.tfvars (git-ignored) and fill in. Do not commit.
+project_id        = "box-admin-test-0000"
+org_id            = "000000000000"
+billing_account   = "000000-000000-000000"
+region            = "us-central1"
+github_repository = "owner/repository"
+environment       = "test"
